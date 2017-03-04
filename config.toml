@@ -1,0 +1,76 @@
+baseURL = "http://blog.popstas.ru/"
+languageCode = "ru-ru"
+title = "Popstas"
+theme = "octopress"
+
+disablePathToLower = false
+paginate = 10
+
+[permalinks]
+    post = "/blog/:year/:month/:day/:slug/"
+
+# Make tags and categories work
+[indexes]
+    tag = "tags"
+    category = "categories"
+
+[params]
+    # If false, all of the post will appear on front page (and in pagination)
+    truncate = true
+    
+    # Author's name (this will appear in metadata and under posts)
+    author = "Stanislav Popov"
+    
+    # This text appears in the site header under website title
+    subtitle = "Записки о Linux"
+    
+    # Website's default description
+    defaultDescription = ""
+
+    # Used in the search engine
+    searchEngineURL = "https://www.google.com/search"
+    
+    customCSS = ["css/custom.css"]
+
+    # Google analytics account id
+    googleAnalytics = "UA-70438594-1"
+    
+    # Disqus shortcode
+    # Disable comments for a specific post by adding "comments: false" in its frontmatter
+    disqusShortname = "popstas"
+    
+    rss = true  # switch to true to enable RSS icon link
+
+    # Set to true to use a text label for RSS instead of an icon
+    # This is overwritten by the `rss` setting
+    textrss = false
+    
+    # Keep it as false please, the css file contains the code for highlighting
+    pygmentsuseclasses = false
+    
+    # If nothing is set, then solarized_light is used
+    # Other styles can be viewed in [http://pygments.org/](http://pygments.org/)
+    pygmentsstyle = "solarized_dark"
+    
+    # Highlight shortcode and code fences (```) will be treated similarly
+    pygmentscodefences = true
+
+    # Sidebar
+        # Number of recent posts that will be shown in the sidebar - set to 0 or remove to hide this section
+        sidebarRecentLimit = 5
+
+        github = "https://github.com/popstas/"
+        twitter = "https://twitter.com/popstas/"
+
+        # Twitter feed
+        twitterUsername = "popstas"
+        # http://raisedadead.com/octopress-twitter-aside/
+        twitterWidgetId = 691684611357806592
+
+        # Github repos
+        githubUser = "popstas"
+        githubRepoCount = 10
+
+[blackfriday]
+    hrefTargetBlank = true # open the external links in a new window
+    fractions = false

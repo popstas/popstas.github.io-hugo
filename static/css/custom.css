@@ -1,0 +1,50 @@
+div.entry-content > h2 {
+    margin-top: 3em;
+    font-size: 2.5em;
+    line-height: 1em;
+}
+
+div.entry-content > h3 {
+    margin-top: 2em;
+    font-size: 1.5em;
+    line-height: 1em;
+}
+
+div.entry-content > h4{
+    margin-top: 1em;
+    font-size: 1em;
+    line-height: 1em;
+}
+
+article pre {
+    padding: 5px;
+    overflow: auto;
+    margin-bottom: 1em;
+}
+
+article .entry-content > table {
+    margin-bottom: 1.5em;
+    border: none;
+}
+    
+    article .entry-content > table th, article .entry-content > table td {
+        padding: 5px;
+        border: 1px solid #ccc;
+    }
+    
+    article .entry-content > table th:first-child, article .entry-content > table td:first-child {
+        border-left: none;
+    }
+    
+    article .entry-content > table th:last-child, article .entry-content > table td:last-child {
+        border-right: none;
+    }
+    
+    article .entry-content > table th {
+        color: #999;
+        border-top: none;
+    }
+    
+    article .entry-content > table tr:last-child td {
+        border-bottom: none;
+    }
