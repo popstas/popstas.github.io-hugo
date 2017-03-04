@@ -302,3 +302,5 @@ paginate = 10
 Поменял формат дат в `themes/octopress/layouts/partials/post_header.html` и `themes/octopress/layouts/partials/post_footer.html`,
 было: `{{ .Date.Format "Jan 2, 2006" }}`, стало: `{{ .Date.Format "2 Jan 2006, 15:04" }}`,
 подробности [тут](https://golang.org/pkg/time/#Time.Format).
+
+Насчет остального не стал париться и тупо нашел и заменил строчки в шаблонах.
