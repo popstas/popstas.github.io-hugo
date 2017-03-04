@@ -287,9 +287,9 @@ paginate = 10
 ```
 
 Код виджетов здесь: 
-[Twitter](https://github.com/popstas/popstas.github.io/tree/master/themes/octopress/partials/custom/twitterfeed.html)
+[Twitter](https://github.com/popstas/popstas.github.io-hugo/blob/master/themes/octopress/layouts/partials/custom/twitterfeed.html)
 и
-[Github](https://github.com/popstas/popstas.github.io/tree/master/themes/octopress/partials/custom/github.html)
+[Github](https://github.com/popstas/popstas.github.io-hugo/blob/master/themes/octopress/layouts/partials/custom/github.html)
 
 
 ### Соц. панель AddToAny

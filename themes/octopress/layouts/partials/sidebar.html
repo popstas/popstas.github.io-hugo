@@ -64,7 +64,7 @@
   {{ with .Site.Params.sidebarRecentLimit }}
     {{ if not (eq $.Site.Params.sidebarRecentLimit 0) }}
       <section class="even">
-        <h1>Recent Posts</h1>
+        <h4>Последние посты:</h4>
         <ul id="recent_posts">
           {{ range first $.Site.Params.sidebarRecentLimit $.Site.Pages }}
             <li class="post">
