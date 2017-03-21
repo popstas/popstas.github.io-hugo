@@ -2,7 +2,7 @@
 title = "Интерактивная Zsh history с поиском и скроллом, percol"
 date = "2015-12-10T19:55:20"
 slug = "interactive-bash-history-with-search"
-Tags = ["bash", "zsh"]
+Tags = ["bash", "zsh", "oh-my-zsh", "powerline", "percol"]
 +++
 
 Если кто не знает, в bash/zsh есть поиск по истории комманд, если нажать `Ctrl+R` и начать набирать 
