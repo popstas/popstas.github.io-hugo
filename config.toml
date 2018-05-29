@@ -1,4 +1,4 @@
-baseURL = "http://blog.popstas.ru/"
+baseURL = "https://blog.popstas.ru/"
 languageCode = "ru-ru"
 title = "Popstas"
 theme = "octopress"
