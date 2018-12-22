@@ -1,5 +1,5 @@
 +++
-title = "Переезд с Windows на Ubuntu 18.04, попытка номер 5"
+title = "Настройка звука Asus DGX Xonar 5.1 на Ubuntu 18.04"
 date = "2018-04-30T19:53:00+06:00"
 slug = "asus-dgx-xonar-ubuntu-18.04"
 Tags = ["ubuntu desktop", "asus-dgx", "drivers", "18.04"]
