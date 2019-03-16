@@ -27,24 +27,45 @@ article .entry-content > table {
     border: none;
 }
     
-    article .entry-content > table th, article .entry-content > table td {
-        padding: 5px;
-        border: 1px solid #ccc;
+article .entry-content > table th, article .entry-content > table td {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+ 
+article .entry-content > table th:first-child, article .entry-content > table td:first-child {
+    border-left: none;
+}
+  
+article .entry-content > table th:last-child, article .entry-content > table td:last-child {
+    border-right: none;
+}
+
+article .entry-content > table th {
+    color: #999;
+    border-top: none;
+}
+ 
+article .entry-content > table tr:last-child td {
+    border-bottom: none;
+}
+
+@media(min-width: 1300px){
+    .sidebar-nav {
+        position: fixed;
+        left: 7px;
+        bottom: -15px;
+        border-bottom: 0;
+    }
+
+    aside.sidebar .sidebar-nav a {
+        color: #fff;
     }
     
-    article .entry-content > table th:first-child, article .entry-content > table td:first-child {
-        border-left: none;
+    aside.sidebar .sidebar-nav a:hover .fa-twitter {
+        color: #00f;
     }
     
-    article .entry-content > table th:last-child, article .entry-content > table td:last-child {
-        border-right: none;
+    aside.sidebar .sidebar-nav a:hover .fa-github {
+        color: #333;
     }
-    
-    article .entry-content > table th {
-        color: #999;
-        border-top: none;
-    }
-    
-    article .entry-content > table tr:last-child td {
-        border-bottom: none;
-    }
+}
