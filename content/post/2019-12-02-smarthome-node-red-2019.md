@@ -2,7 +2,7 @@
 title = "Мой умный дом 2019: Sonoff, ESP8266, MQTT, Node-red, Алиса"
 date = "2019-12-02T02:00:00+06:00"
 slug = "smarthome-node-red-2019"
-Tags = ["smarthome", "js", "node-red", "sonoff", "yandex-dialogs"]
+Tags = ["smart home", "js", "node-red", "sonoff", "yandex-dialogs"]
 +++
 
 
