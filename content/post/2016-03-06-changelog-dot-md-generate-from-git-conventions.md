@@ -22,7 +22,7 @@ Tl;dr: conventional-changelog, стандартизация коммитов.
 
 <!--more-->
 
-# CHANGELOG.md
+## CHANGELOG.md
 Понятная для человека история изменений проекта нужна. Тут надо заметить что такими историями не являются:
 
 - Issues проекта, ветка в менеджере задач, доска проекта и т.п.
@@ -64,7 +64,7 @@ BUG FIXES:
 Процедура очень простая, настолько простая, что хочется ее поручить роботу.
 
 
-## github_changelog_generator
+### github_changelog_generator
 
 [github_changelog_generator](https://github.com/skywinder/github-changelog-generator) - ruby утилита, которая умеет генерировать CHANGELOG.md из любого репозитория. На выходе получаем документ типа [этого](https://github.com/skywinder/github-changelog-generator/blob/master/CHANGELOG.md), наполненный ссылками на задачи и пулл-реквесты, разбитый по категориям, все круто, как в рекламе. У меня получилось совсем не так красиво.
 
@@ -87,7 +87,7 @@ BUG FIXES:
 Но на этом я не успокоился, основная причина в том, что на рабочие проекты на Github я не делаю. Хотелось более общего решения.
 
 
-## git-extras changelog
+### git-extras changelog
 [tj/git-extras](https://github.com/tj/git-extras) - это [огромный](https://github.com/tj/git-extras/blob/master/Commands.md) (около 50) пакет дополнительных команд, упрощающих работу с git. Я его раньше уже видел, но в то время подумал, что мне и встроенных в git команд слишком много. Но в поисках генератора снова набрел на него, у него есть такая команда.
 
 Вот таким нехитрым способом можно в одну команду сгенерировать и запушить лог для проекта, где его не было, но версии помечались тегами и комменты к коммитам были осмысленными:
@@ -106,7 +106,7 @@ git changelog -a -p -x > CHANGELOG.md && git add CHANGELOG.md && git commit CHAN
 - Нет почти никаких настроек
 
 
-## rafinskipg/git-changelog
+### rafinskipg/git-changelog
 [rafinskipg/git-changelog](https://github.com/rafinskipg/git-changelog) - node.js cкрипт, который парсит коммиты, написанные по [стандартам Angular](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit#). Я их прочитал, оказалось, что стандарты годные, к angular никак не привязаны.
 
 Конфликтует с git-extras, так как оба они хотят называться git-changelog. Этот я сделал симлинком `git-changelog-angular`.
@@ -114,7 +114,7 @@ git changelog -a -p -x > CHANGELOG.md && git add CHANGELOG.md && git commit CHAN
 Параметров у скрипта немного, я с ними поигрался, но ничего хорошего у меня с этим тулом не вышло. Идем дальше.
 
 
-## conventional-changelog
+### conventional-changelog
 [stevemao/conventional-changelog-cli](https://github.com/stevemao/conventional-changelog-cli) - node.js скрипт, также нацелен на стандарты Angular, но, [по заявлениям](https://github.com/stevemao/conventional-changelog-cli#why) авторов это как раз то, что нужно:
 
 - поддерживает свои форматы коммитов и несколько общих: 'angular', 'atom', 'codemirror', 'ember', 'eslint', 'express', 'jquery', 'jscs', 'jshint'
@@ -158,14 +158,14 @@ conventional-changelog -i CHANGELOG.md -s -r 0
 
 
 
-# Выводы
+## Выводы
 Для того, чтобы генератор создавал по-настоящему хорошие логи, важно определиться с форматом сообщений к коммитам, научиться следовать ему и научить роботов понимать наш формат, чтобы роботы ~~поработили людей~~ помогали правильно и не напрягаясь вести историю изменеий проекта в процессе, а не после работы над проектом.
 
 Для себя я нашел инструмент, которым я теперь могу за 5 минут создавать историю изменений для проектов на основе коммитов.
 
 Генерация CHANGELOG.md - шаг в сторону хорошей и актуальной документации по проекту, которая не будет занимать часы или дни, она будет частью рабочего процесса, конечно для маленького проекта из одного программиста это избыточно, мягко говоря, но надо же с чего-то начинать.
 
-## UPD 08.03.2016
+#### UPD 08.03.2016
 Добавил валидатор:
 ```
 npm install -g conventional-changelog-lint

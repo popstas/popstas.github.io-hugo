@@ -32,7 +32,7 @@ $ echo "nameserver 8.8.8.8" > /etc/resolv.conf
 apt-get при установке поругивается, но ставит.
 
 
-# Zsh
+## Zsh
 ```
 $ apt-get update && apt-get install git zsh
 ```
@@ -52,7 +52,7 @@ $ apt-get update && apt-get install git zsh
 Выходим, идем дальше.
 
 
-# Python
+## Python
 
 ```
 $ apt-get install python-pip python-dev
@@ -68,7 +68,7 @@ $ apt-get install python-pip python-dev
 - `httpie` - работает!
 
 
-# SSH
+## SSH
 Тащим ключ с домашней машины
 
 ```
@@ -82,7 +82,7 @@ $ rsync popstas@home:/Users/popstas/.ssh/id_dsa ~/.ssh
 Ок, терминал будет, потом.
 
 
-# PHP
+## PHP
 
 ```
 $ apt-get install php5-cli
@@ -92,11 +92,11 @@ PHP работает.
 Composer ставится, но при попытке установить им что-нибудь зависает.
 
 
-# Nginx
+## Nginx
 Ставится, но не стартует, в error.log пишет, что не может прибиндиться к сокету.
 
 
-# Вывод
+## Вывод
 Пользоваться этим сейчас конечно нельзя и в ближайший месяц думаю можно не надеяться.
 Я рассчитывал на большее, ну ладно, будем надеяться, что у Microsoft получится сделать
 полноценный линукс, хотя видно, что работы тут еще немеряно.

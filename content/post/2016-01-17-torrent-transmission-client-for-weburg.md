@@ -30,7 +30,7 @@ Tags = ["transmission-cli", "php", "influxdb", "influxdata", "grafana", "travis"
 - удаление дублирующихся раздач (для сериалов)
 - отправка метрик в InfluxDB (для слежения за популярностью)
 
-# Установка
+## Установка
 Установить клиент можно так:
 ``` bash
 latest_phar=$(curl -s https://api.github.com/repos/popstas/transmission-cli/releases/latest | grep 'browser_' | cut -d\" -f4)
