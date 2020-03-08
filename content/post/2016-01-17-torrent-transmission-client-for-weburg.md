@@ -135,7 +135,7 @@ Diamond -> Carbon -> Whisper -> Graphite -> Grafana для рисования г
 [TICK](https://influxdata.com/time-series-platform/), в который
 входит еще и алертинг по отклонениям метрик. Могу сказать о нем то, что Telegraf работает, InfluxDB работает без тормозов,
 собирая с моего компа метрики раз в 10 секунд, Chronograf какой-то неполноценный, по сравнению с Grafana,
-а Kapacitor я еще не смотрел (UPD 19.05.2016: [уже смотрел](/blog/categories/kapacitor/)).
+а Kapacitor я еще не смотрел (UPD 19.05.2016: [уже смотрел](/tags/kapacitor/)).
 
 ### Grafana
 В Grafana 2.6 появилось много нового, по сравнению с 2.0, которую я видел в августе. А вообще, если кто использовал
