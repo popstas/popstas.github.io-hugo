@@ -9,6 +9,9 @@ hgroup a {
     text-decoration: none;
     color: #f2f2f2 !important;
 }
+fieldset[role="search"] {
+    margin-top: 5px;
+}
 
 article header p.meta {
     text-transform: none;

@@ -34,7 +34,7 @@
 {{ with .Site.Params.searchEngineURL }}
   <form action="{{ . }}" method="get" target="_blank">
     <fieldset role="search">
-      <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+      <input class="search" type="text" name="q" results="0" placeholder="Поискать в Google"/>
       <input type="hidden" name="q" value="site:{{ "/" | absURL }}" />
     </fieldset>
   </form>
