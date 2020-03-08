@@ -10,7 +10,7 @@ Tags = ["smart home", "js", "node-red", "sonoff", "yandex-dialogs"]
 
 
 
-<img loading="lazy" src="/images/2019-12/smarthome.jpg" />
+<img itemprop="image" loading="lazy" src="/images/2019-12/smarthome.jpg" />
 (Кадр из психоделического советского мультика на тему, "[Будет ласковый дождь](https://www.youtube.com/watch?v=WfI69DC_jaw)").
 
 <!--more-->

@@ -6,7 +6,7 @@ Tags = []
 draft = true
 +++
 
-<img src="/images/2017-03/" />
+<img itemprop="image" src="/images/2017-03/" />
 <!--more-->
 
 Копирование 50 000 файлов, 1 Гб

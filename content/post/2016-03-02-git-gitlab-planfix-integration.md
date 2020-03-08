@@ -19,7 +19,7 @@ Tl;dr: настраивается post-receive hook в Git на удаленно
 Вся интеграция делается в одном файле, код хука лежит здесь - 
 [git-hook-post-receive](https://github.com/popstas/server-scripts/blob/master/bin/git-hook-post-receive)
 
-<img src="/images/2016-03/planfix_logo.png" />
+<img itemprop="image" src="/images/2016-03/planfix_logo.png" />
 
 <!--more-->
 

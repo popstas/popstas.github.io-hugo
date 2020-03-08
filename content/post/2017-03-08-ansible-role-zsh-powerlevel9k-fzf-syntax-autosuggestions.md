@@ -31,7 +31,7 @@ Tags = ["bash", "zsh", "oh-my-zsh", "powerlevel9k", "ansible-role", "zsh-autosug
 - отображение времени для долго выполняемых команд (помогает реже использовать `time`)
 
 Демонстрация фич за 1 минуту:
-<img src="/images/2017-03/ansible-role-zsh-demo.gif" />
+<img itemprop="image" src="/images/2017-03/ansible-role-zsh-demo.gif" />
 
 <!--more-->
 

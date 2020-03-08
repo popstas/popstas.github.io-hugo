@@ -11,7 +11,7 @@ Tags = ["bash", "zsh", "oh-my-zsh", "powerline", "percol"]
 
 Утилита [percol](https://github.com/mooz/percol#zsh-history-search) решает эту проблему.
 
-<img src="/images/2015-12/percol.gif" />
+<img itemprop="image" src="/images/2015-12/percol.gif" />
 
 <!--more-->
 

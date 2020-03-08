@@ -16,7 +16,8 @@ Tags = ["nodemcu", "jetbrains", "idea", "phpstorm", "python", "atom", "vscode", 
 
 TL;DR: написал свой велосипед, работает, но не без проблем.
 
-<img src="/images/2017-05/nodemcu-idea.png" />
+<img itemprop="image" src="/images/2017-05/nodemcu-idea.png" />
+
 <!--more-->
 
 ## Как это работает:

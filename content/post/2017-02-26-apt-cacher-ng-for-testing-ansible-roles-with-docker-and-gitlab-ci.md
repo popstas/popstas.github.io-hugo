@@ -13,7 +13,7 @@ Tags = ["ubuntu", "apt", "apt-mirror", "apt-cacher", "apt-cacher-ng", "gitlab", 
 
 Tl;dr: на этот раз все получилось, этот способ меня устроил.
 
-<img src="/images/2017-02/apt-cacher-ng.png" />
+<img itemprop="image" src="/images/2017-02/apt-cacher-ng.png" />
 
 <!--more-->
 

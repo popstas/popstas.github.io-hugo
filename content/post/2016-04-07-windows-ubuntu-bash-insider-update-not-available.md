@@ -12,7 +12,7 @@ UPD 11.04.2016: сборка 14316 дошла до меня, смотрите и
 - [issue про недоступность сборки 14316](https://github.com/Microsoft/CommandLine-Documentation/issues/5)
 - [Инструкция по обновлению на русском](http://blog.zacorp.ru/main/kak-vklyuchit-podderzhku-ubuntu-v-windows-10/)
 
-<img src="http://az648995.vo.msecnd.net/win/2016/04/bash-1024x569.png" />
+<img itemprop="image" src="http://az648995.vo.msecnd.net/win/2016/04/bash-1024x569.png" />
 
 <!--more-->
 

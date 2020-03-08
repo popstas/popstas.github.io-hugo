@@ -11,7 +11,7 @@ alsa-utils у меня уже были установлены, запустил 
 
 Примечательно, что таким же способом я чинил звук на Redhat и Creative Live 5.1 в 2003-м, прошло 15 лет, а глюки всё те же, печально.
 
-<img src="/images/2018-04/asus-dgx-alsamixer.jpg" />
+<img itemprop="image" src="/images/2018-04/asus-dgx-alsamixer.jpg" />
 
 <!--more-->
 

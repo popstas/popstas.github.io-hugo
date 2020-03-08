@@ -34,7 +34,8 @@ cp filename.ext <Alt+,>
 
 В действии:
 
-<img src="/images/2017-03/zsh-duplicate-last-arg.gif" />
+<img itemprop="image" src="/images/2017-03/zsh-duplicate-last-arg.gif" />
+
 <!--more-->
 
 Когда я правил чужие виджеты (виджетом в zsh называется функция, повешенная на хоткей), я понял,

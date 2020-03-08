@@ -5,7 +5,7 @@ slug = "ubuntu-yandex-browser-black-line"
 Tags = ["ubuntu desktop", "18.04"]
 +++
 
-<img src="/images/2018-04/yandex-browser-black-line.jpg" />
+<img itemprop="image" src="/images/2018-04/yandex-browser-black-line.jpg" />
 
 На решение натолкнуло видео - https://www.youtube.com/watch?v=qUIsn5-B2XY
 

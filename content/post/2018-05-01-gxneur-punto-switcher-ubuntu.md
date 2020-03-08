@@ -7,6 +7,8 @@ Tags = ["ubuntu desktop", "18.04"]
 
 Для тех, кто не может жить без Punto Switcher, у меня плохие новости: нормальной замены на Ubuntu нет, на форуме люди говорят, что у кого-то работает идеально, я с 10.04 пробую, никогда идеально не было. Будем настраивать то, что есть.
 
+<img itemprop="image" src="https://upload.wikimedia.org/wikipedia/ru/a/a3/Xneur_project.png" />
+
 <!--more-->
 
 В 18.04 на данный момент последняя версия xneur, 0.20, ставим ее, а также aspell-ru, как [советуют](http://forum.ubuntu.ru/index.php?topic=165332.msg2337661#msg2337661) на форуме:

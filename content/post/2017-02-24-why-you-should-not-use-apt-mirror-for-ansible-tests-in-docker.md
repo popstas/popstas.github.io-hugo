@@ -12,7 +12,7 @@ Tags = ["ubuntu", "apt", "apt-mirror", "apt-cacher", "apt-cacher-ng", "gitlab", 
 
 Tl;dr: не делайте локальный репозиторий через `apt-mirror` для мелких задач, не стоит оно того. Вместо этого нужно поднять кеширующий сервер через [apt-cacher-ng](/blog/2017/02/26/apt-cacher-ng-for-testing-ansible-roles-with-docker-and-gitlab-ci/).
 
-<img src="/images/2017-02/apt-mirror.png" />
+<img itemprop="image" src="/images/2017-02/apt-mirror.png" />
 
 <!--more-->
 

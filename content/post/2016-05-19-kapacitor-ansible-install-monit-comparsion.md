@@ -14,7 +14,7 @@ Tl;dr: думаю, что Kapacitor нужен только тем, кто уж�
 А также небольшое замечание о том, [как делать Pull request'ы из браузера за 2 минуты](/blog/2016/05/19/kapacitor-ansible-install-monit-comparsion/#github-pull-request)
 
 
-<img style="background:#1F242D" src="/images/2016-05/kapacitor.svg" />
+<img itemprop="image" style="background:#1F242D" src="/images/2016-05/kapacitor.svg" />
 
 <!--more-->
 

@@ -9,7 +9,7 @@ Tags = ["pocket", "twitter", "rss", "podcasts"]
 
 Tl;dr: RSS + Twitter + Email &rarr; Pocket &rarr; Firefox &rarr; Twitter + закладки.
 
-<img src="/images/2016-02/content_pyramid.png" />
+<img itemprop="image" src="/images/2016-02/content_pyramid.png" />
 
 <!--more-->
 

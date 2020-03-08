@@ -8,7 +8,8 @@ draft = true
 
 [Курс "Deep learning на пальцах - 2019" от sim0nsays](https://www.youtube.com/playlist?list=PL5FkQ0AF9O_o2Eb5Qn8pwCDg7TniyV1Wb)
 
-<img src="" />
+<img itemprop="image" src="" />
+
 <!--more-->
 
 ## 3 урок

@@ -12,7 +12,8 @@ Tags = ["phpstorm", "python", "textmate"]
 Tl;dr: можно сделать только подсветку, Solarized Dark нельзя.
 [Официальная документация](https://confluence.jetbrains.com/display/PhpStorm/TextMate+Bundles+in+PhpStorm)
 
-<img src="/images/2017-03/phpstorm-python.gif" />
+<img itemprop="image" src="/images/2017-03/phpstorm-python.gif" />
+
 <!--more-->
 
 ## Wat?!

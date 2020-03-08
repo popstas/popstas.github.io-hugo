@@ -13,7 +13,7 @@ Tags = ["docker"]
 
 Пост предназначен для тех, кто пытается освоить docker cli, понять, чем отличается контейнер и образ. В частности, будет объяснена разница между просто контейнером и запущенным контейнером.
 
-<img src="https://habrastorage.org/files/8ff/349/fb2/8ff349fb23f840589c479d029964b8dc.png" />
+<img itemprop="image" src="https://habrastorage.org/files/8ff/349/fb2/8ff349fb23f840589c479d029964b8dc.png" />
 
 <!--more-->
 

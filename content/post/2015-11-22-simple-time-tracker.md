@@ -12,7 +12,7 @@ Tags = ["gtd", "javascript"]
 
 Tl; dr: выбросил свою поделку, теперь пользуюсь https://www.toggl.com/
 
-<img src="https://github.com/popstas/time-tracker/raw/master/img/screenshot.png?raw=true" />
+<img itemprop="image" src="https://github.com/popstas/time-tracker/raw/master/img/screenshot.png?raw=true" />
 
 <!--more-->
 

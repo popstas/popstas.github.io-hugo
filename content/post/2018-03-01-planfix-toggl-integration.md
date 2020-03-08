@@ -13,7 +13,8 @@ Tl;dr: автоматическая отправка из Toggl в Планфи�
 - [Ссылки на загрузки](https://github.com/viasite/planfix-toggl-server/releases) (проверялось только под Windows и Linux)
 - Расширения для [Chrome](https://chrome.google.com/webstore/detail/toggl-button-planfix-edit/hkhchfdjhfegkhkgjongbodaphidfmcl) и [Firefox](https://addons.mozilla.org/ru/firefox/addon/toggl-button-planfix/)
 
-<img src="/images/2018-03/planfix-toggl.png" />
+<img itemprop="image" src="/images/2018-03/planfix-toggl.png" />
+
 <!--more-->
 
 ## Toggl

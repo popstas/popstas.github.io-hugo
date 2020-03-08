@@ -9,7 +9,7 @@ Tags = ["bash", "windows", "ubuntu", "microsoft"]
 
 Tl;dr: оно очень сырое, не работает почти ничего.
 
-<img src="/images/2016-04/windows-ubuntu-bash.png" />
+<img itemprop="image" src="/images/2016-04/windows-ubuntu-bash.png" />
 
 <!--more -->
 Первым делом захотелось родной zsh, берем aptitude, ставим, Ubuntu же!
