@@ -18,9 +18,9 @@
             {{ .Date | dateFormat "2006"}}
           </h2>
           <article>
-            <h1>
+            <div class="list-entry-title">
               <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
-            </h1>
+            </div class="list-entry-title">
             <time>
               <span class="month">{{ .Date | dateFormat "Jan" }}</span>
               <span class="day">{{ .Date | dateFormat "2" }}</span>

@@ -100,6 +100,10 @@ article .entry-content > table tr:last-child td {
     font-weight: bold;
 }
 
+.categories .category {
+    margin-right: 0.2em;
+}
+
 @media(min-width: 1620px){
     .sidebar-nav {
         position: fixed;
@@ -144,4 +148,18 @@ article img {
     /* width: calc(100% + 16px);
     margin-left: -8px;
     margin-right: -8px; */
+}
+
+/* /tags/ */
+.list-entry-title {
+    font-size: 1.5em;
+    color: #222;
+    margin-top: 1em;
+    margin-bottom: .3em;
+}
+.list-entry-title a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: normal;
+    display: inline-block;
 }
