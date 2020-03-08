@@ -34,7 +34,7 @@ cp filename.ext <Alt+,>
 
 В действии:
 
-<img itemprop="image" src="/images/2017-03/zsh-duplicate-last-arg.gif" />
+{{< mainimg src="/images/2017-03/zsh-duplicate-last-arg.gif" >}}
 
 <!--more-->
 

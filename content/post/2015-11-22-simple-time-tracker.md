@@ -6,13 +6,13 @@ Tags = ["gtd", "javascript"]
 +++
 
 На работе у меня часто бывает такое, что не понятно, куда ушло время.
-Поэтому написал для себя небольшое приложение, тайм-трекер - http://time.popstas.ru/ 
+Поэтому написал для себя небольшое приложение, тайм-трекер - https://time.popstas.ru/ 
 Пользуюсь им уже 2 года, сегодня решил выложить на гитхаб и заодно исправил
 глюки, которые раздражали последние годы :)
 
 Tl; dr: выбросил свою поделку, теперь пользуюсь https://www.toggl.com/
 
-<img itemprop="image" src="https://github.com/popstas/time-tracker/raw/master/img/screenshot.png?raw=true" />
+{{< mainimg src="https://github.com/popstas/time-tracker/raw/master/img/screenshot.png?raw=true" >}}
 
 <!--more-->
 

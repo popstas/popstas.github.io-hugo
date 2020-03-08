@@ -25,7 +25,7 @@ Packer умеет брать чистую операционку, настраи
 Tl;dr: я буду собирать образы для Docker и Vagrant из Ubuntu, на которую накатили ansible плейбук.
 Gist с результатами [здесь](https://gist.github.com/popstas/9a42d198fe7c5bee317d0bc4e2e2af9f).
 
-<img itemprop="image" src="/images/2017-03/ansible-packer-docker-vagrant.png" />
+{{< mainimg src="/images/2017-03/ansible-packer-docker-vagrant.png" >}}
 
 <!--more-->
 

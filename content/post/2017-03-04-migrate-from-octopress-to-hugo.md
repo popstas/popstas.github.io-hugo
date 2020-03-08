@@ -12,7 +12,7 @@ Tags = ["octopress", "hugo", "go", "ruby", "blog"]
 - быстрее
 - просто интересно
 
-<img itemprop="image" src="/images/2017-03/octopress-to-hugo.png" />
+{{< mainimg src="/images/2017-03/octopress-to-hugo.png" >}}
 <!--more-->
 
 ## Подробнее о причинах

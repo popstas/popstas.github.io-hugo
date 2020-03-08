@@ -11,6 +11,8 @@ TL;DR: много, очень много, не знаю сколько. И де�
 
 UPD 14.01.2020: после обновления приложения до версии 3.0.3 пылесос перестал соединяться с телефоном. Не очень надо, всё ещё работает установка расписания через пульт, но всё равно неприятно.
 
+UPD 08.03.2020: после отката на версию 2.x заработало.
+
 <!--more-->
 
 {{< youtube slXHa4DMp5Q >}}
@@ -79,9 +81,9 @@ UPD 14.01.2020: после обновления приложения до вер
 ### Ковёр №3
 Последняя надежда на ковёр в комнате, он самый новый, был куплен чуть больше года назад, так что может в нём нет столько пыли? Снова пропылесосил его большим пылесосом, медленно, на три раза. Запустил робота, на всю батарейку. Площадь комнаты 10 кв. метров, пылесос до этого напылесосил на 20 минут, значит, заряда хватит где-то на 5 уборок. Мне уже поднадоело пылесосить пылесос после каждой уборки, поэтому первые 4 уборки я перезапускал его не глядя. Батарейки хватило ровно на 5 уборок.
 
-Тест подходит к концу, учитывая необычную тщательность уборки большим пылесосом перед тестом, приравняю её к 5 уборкам робота-пылесоса. Вот контейнер после 20 уборок ковра, пыль есть:
+Тест подходит к концу, учитывая необычную тщательность уборки большим пылесосом перед тестом, приравняю её к 5 уборкам робота-пылесоса. Вот контейнер после 20 уборок ковра (20-я уборка на чистом контейнере), пыль есть:
 
-<img alt="контейнер после 20 уборок ковра" src="https://lh3.googleusercontent.com/bhvxBJ_7M0qMvtdd_rW7GfmNLN-3XIFI3t9lbu-jqIUTjJlNyJwjmngS_SAgZzb3zrMledd-EodaboX4M97P9EQNpzEd2EPT6I4kNG-Q9aSEPL_qJKJuYCe_sQC7QYaMFqJTpmtMgxoOZhkILXGMqxmvN5ISNDIrktaPfNyJ0ai7qDl0Plei4kVaEVDrhw0WkFNvk4yF83jLQm7fP6jGfT9FsjBzgguHcE5igETJmSslCLiZfRr909TJyBPkxAeKH8KwaGV9q3OnANrV6n9-860b9a_mpgedH6tTC1AMfkfANbhjNC73Mbo27QqbIcZ_toG5PE1jUr9qf6RFsf_F_NQl6VJrRbXYFQRQW0NQPGazWxaADpevTM9B1FFHNvi4fYxmne8vcBXkRBUyywTxiuqOcy5mpRJIp-USMK55RrPlTcnDKxPdbL-1Hgt-NKK11ZIjRwfCQpw3xc73KH6JoPNpXFnoPAOsWbRxpPSCWsJJiZkVwoRZSAGHP7OwZoDaXiEdmSVI8L2IUSGakc4ACngEA7dFEClnlq1wsOXbiPEgrKIQS-AWV9l9QjDHmC_Ik2Edp4JHOOI-vkwKKiBsKSEILJ7DDIeHLHDAu5em9kDuRRZFa24DnAkyK75qrfphWXzurTMBqP6Fv9NtyUyFriQFH4JlWKc=w1245-h701-no" />
+{{< imglazy title="контейнер после 20 уборок ковра" src="https://lh3.googleusercontent.com/bhvxBJ_7M0qMvtdd_rW7GfmNLN-3XIFI3t9lbu-jqIUTjJlNyJwjmngS_SAgZzb3zrMledd-EodaboX4M97P9EQNpzEd2EPT6I4kNG-Q9aSEPL_qJKJuYCe_sQC7QYaMFqJTpmtMgxoOZhkILXGMqxmvN5ISNDIrktaPfNyJ0ai7qDl0Plei4kVaEVDrhw0WkFNvk4yF83jLQm7fP6jGfT9FsjBzgguHcE5igETJmSslCLiZfRr909TJyBPkxAeKH8KwaGV9q3OnANrV6n9-860b9a_mpgedH6tTC1AMfkfANbhjNC73Mbo27QqbIcZ_toG5PE1jUr9qf6RFsf_F_NQl6VJrRbXYFQRQW0NQPGazWxaADpevTM9B1FFHNvi4fYxmne8vcBXkRBUyywTxiuqOcy5mpRJIp-USMK55RrPlTcnDKxPdbL-1Hgt-NKK11ZIjRwfCQpw3xc73KH6JoPNpXFnoPAOsWbRxpPSCWsJJiZkVwoRZSAGHP7OwZoDaXiEdmSVI8L2IUSGakc4ACngEA7dFEClnlq1wsOXbiPEgrKIQS-AWV9l9QjDHmC_Ik2Edp4JHOOI-vkwKKiBsKSEILJ7DDIeHLHDAu5em9kDuRRZFa24DnAkyK75qrfphWXzurTMBqP6Fv9NtyUyFriQFH4JlWKc=w1245-h701-no" >}}
 
 
 ## Результаты по времени работы

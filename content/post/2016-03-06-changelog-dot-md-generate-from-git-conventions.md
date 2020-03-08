@@ -18,7 +18,7 @@ Tags = ["transmission-cli", "git", "changelog", "github", "docs"]
 
 Tl;dr: conventional-changelog, стандартизация коммитов.
 
-<img itemprop="image" src="/images/2016-03/changelog.png" />
+{{< mainimg src="/images/2016-03/changelog.png" >}}
 
 <!--more-->
 

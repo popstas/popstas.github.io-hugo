@@ -21,7 +21,7 @@ Tags = ["transmission-cli", "php", "influxdb", "influxdata", "grafana", "travis"
 [![Build Status](https://travis-ci.org/popstas/transmission-cli.svg?branch=master)](https://travis-ci.org/popstas/transmission-cli)
 [![Coverage Status](https://coveralls.io/repos/popstas/transmission-cli/badge.svg?branch=master&service=github)](https://coveralls.io/github/popstas/transmission-cli?branch=master)
 
-<img itemprop="image" src="https://github.com/popstas/transmission-cli/raw/master/docs/img/grafana.png?raw=true" />
+{{< mainimg src="https://github.com/popstas/transmission-cli/raw/master/docs/img/grafana.png?raw=true" >}}
 
 <!--more-->
 

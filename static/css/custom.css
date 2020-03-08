@@ -10,6 +10,10 @@ hgroup a {
     color: #f2f2f2 !important;
 }
 
+article header p.meta {
+    text-transform: none;
+}
+
 #content .blog-index a.full-article {
     background: #ebebeb;
     display: inline-block;
@@ -89,6 +93,11 @@ article .entry-content > table th {
  
 article .entry-content > table tr:last-child td {
     border-bottom: none;
+}
+
+.sidebar-title {
+    font-size: 1.2em;
+    font-weight: bold;
 }
 
 @media(min-width: 1620px){

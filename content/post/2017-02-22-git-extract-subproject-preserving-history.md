@@ -14,7 +14,7 @@ Tags = ["bash", "git", "ansible", "server-scripts"]
 
 Ниже написано, как сделать 1-й шаг одной командой через скрипт `git-extract-subproject`.
 
-<img itemprop="image" src="/images/2017-02/git-extract-subproject.jpg" />
+{{< mainimg src="/images/2017-02/git-extract-subproject.jpg" >}}
 
 <!--more-->
 

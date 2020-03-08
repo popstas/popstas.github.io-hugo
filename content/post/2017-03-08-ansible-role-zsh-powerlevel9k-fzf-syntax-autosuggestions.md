@@ -31,7 +31,7 @@ Tags = ["bash", "zsh", "oh-my-zsh", "powerlevel9k", "ansible-role", "zsh-autosug
 - отображение времени для долго выполняемых команд (помогает реже использовать `time`)
 
 Демонстрация фич за 1 минуту:
-<img itemprop="image" src="/images/2017-03/ansible-role-zsh-demo.gif" />
+{{< mainimg src="/images/2017-03/ansible-role-zsh-demo.gif" >}}
 
 <!--more-->
 
@@ -143,7 +143,7 @@ Tags = ["bash", "zsh", "oh-my-zsh", "powerlevel9k", "ansible-role", "zsh-autosug
 Я использую цветовую схему Solarized Dark, но чтобы не огорчать коллег, которые заходят на настроенные мной сервера,
 я проверил, как выглядит терминал на стандартной палитре Putty, на стандартной палитре Ubuntu, на встроенных темах iTerm:
 
-<img src="/images/2017-03/ansible-role-zsh-colors.gif" />
+{{< imglazy src="/images/2017-03/ansible-role-zsh-colors.gif" >}}
 
 
 

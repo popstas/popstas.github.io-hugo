@@ -9,7 +9,7 @@ Tags = ["3d printer"]
 
 TL;DR: получилось достаточно хорошо, чтобы выложить [первую модель на thingverse](https://www.thingiverse.com/thing:3197921).
 
-<img itemprop="image" src="/images/2018-11/3d-printed-expandable-tea-box-1.jpg" />
+{{< mainimg src="/images/2018-11/3d-printed-expandable-tea-box-1.jpg" >}}
 <!--more-->
 
 Небольшое вступление: я люблю покупать много разного чая, так много, что не все коробки помещаются в чайный шкафчик. Желание поставить полочки для чая вместо стандартных коробок пришло задолго до приобретения принтера, я искал на aliexpress подходящие, но ничего не нашел.
@@ -44,7 +44,7 @@ TL;DR: получилось достаточно хорошо, чтобы выл
 
 Получилась такая моделька:
 
-<img src="/images/2018-11/3d-printed-expandable-tea-box-sketchup.jpg" />
+{{< imglazy src="/images/2018-11/3d-printed-expandable-tea-box-sketchup.jpg" >}}
 
 ### Правки, которые были внесены в процессе
 
@@ -66,7 +66,7 @@ TL;DR: получилось достаточно хорошо, чтобы выл
 
 Первая версия была немного ниже:
 
-<img src="/images/2018-11/3d-printed-expandable-tea-box-version-1.jpg" />
+{{< imglazy src="/images/2018-11/3d-printed-expandable-tea-box-version-1.jpg" >}}
 
 В итоге большая часть косяков была исправлена надфилем, было выброшено всего 5 стоек и две платформы.
 
@@ -78,15 +78,15 @@ TL;DR: получилось достаточно хорошо, чтобы выл
 
 При печати на подложке или с каймой получается криво, после 5 минут обработки пальцами детали выглядели так:
 
-<img src="/images/2018-11/3d-printed-expandable-tea-box-ugly-parts.jpg" />
+{{< imglazy src="/images/2018-11/3d-printed-expandable-tea-box-ugly-parts.jpg" >}}
 
 20 минут обработки скальпелем и наждачкой не помогли довести детали до состояния, какое было бы сразу после печати без каймы.
 
 ## Результат
 Итоговая модель:
 
-<img src="/images/2018-11/3d-printed-expandable-tea-box-version-2.jpg" />
+{{< imglazy src="/images/2018-11/3d-printed-expandable-tea-box-version-2.jpg" >}}
 
 Второй этаж:
 
-<img src="/images/2018-11/3d-printed-expandable-tea-box-2-floors.jpg" />
+{{< imglazy src="/images/2018-11/3d-printed-expandable-tea-box-2-floors.jpg" >}}

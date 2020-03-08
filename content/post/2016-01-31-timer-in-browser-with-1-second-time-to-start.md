@@ -14,7 +14,7 @@ Tags = ["fast"]
 
 UPD 05.03.2017: до сих пор пользуюсь через раз, либо этим способом, либо: "Окей, гугл, таймер на пять минут".
 
-<img itemprop="image" src="/images/2016-01/eggtimer.png" />
+{{< mainimg src="/images/2016-01/eggtimer.png" >}}
 
 <!--more-->
 

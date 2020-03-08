@@ -3,17 +3,17 @@
 
 <footer>
   <p class="meta">
-    <span class="byline author vcard">Posted by <span class="fn">{{ with .Site.Params.author }}{{ . }}{{ end }}</span></span>
-    <!-- can't put the .Date.Format inside the datetime attribute because of double quotes, so it's outside -->
-    <time>{{ .Date.Format "Jan 2, 2006" }}</time>
+    <time itemprop="datePublished" content="{{ .Date.Format "2006-01-02T15:04:05MST" }}">{{ .Date.Format "2 Jan 2006, 15:04" }}</time>
     {{ if isset .Params "tags" }}
       <span class="categories">
-        Tags:
+        , теги:
         <!-- need to convert the tags to lower for the URLs to work -->
-          {{ range .Params.tags }}<a class="category" href="{{ "/tags/" | absURL }}{{ . | urlize | lower }}">{{ . }}</a>  {{ end }}
+          {{ range .Params.tags }}<a class="category" href="{{ "/tags/" | absURL }}{{ . | urlize | lower }}">{{ . }}</a><meta itemprop="about" content="{{ . }}">  {{ end }}
     {{ end }}
     </span>
   </p>
+
+  {{ partial "custom/sharing.html" . }}
 
   <!-- PrevInSection and nextInSection point to previous and next page in the
        same section, in this case "post" this way we won't see other pages.

@@ -13,7 +13,7 @@ Tags = ["ubuntu", "ubuntu desktop", "18.04"]
 
 UPD 13.07.2018: цикл статей оборвался из-за того, что я не смог побороть глюк Nvidia (см. комменты) и вернулся на Windows. Можно сказать, что это был такой сложный способ найти крутую скриншотилку Monosnap :)
 
-<img itemprop="image" src="/images/2018-04/windows-ubuntu.jpg" />
+{{< mainimg src="/images/2018-04/windows-ubuntu.jpg" >}}
 
 <!--more-->
 
