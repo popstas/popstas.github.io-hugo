@@ -3,12 +3,12 @@
 <footer>
   <p class="meta">
     <!-- can't put the .Date.Format inside the datetime attribute because of double quotes, so it's outside -->
-    <time>{{ .Date.Format "2 Jan 2006, 15:04" }}</time>
+    <time itemprop="datePublished" content="{{ .Date.Format "2006-01-02T15:04:05MST" }}">{{ .Date.Format "2 Jan 2006, 15:04" }}</time>
     {{ if isset .Params "tags" }}
       <span class="categories">
-        Теги:
+        , теги:
         <!-- need to convert the tags to lower for the URLs to work -->
-          {{ range .Params.tags }}<a class="category" href="{{ "/tags/" | absURL }}{{ . | urlize | lower }}">{{ . }}</a>  {{ end }}
+          {{ range .Params.tags }}<a class="category" href="{{ "/tags/" | absURL }}{{ . | urlize | lower }}">{{ . }}</a><meta itemprop="about" content="{{ . }}">  {{ end }}
     {{ end }}
     </span>
   </p>

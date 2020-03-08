@@ -11,7 +11,7 @@
             - {{ range .Params.categories }}<a class="label" href="{{ "/categories/" | absURL }}{{ . | urlize | lower }}/">{{ . }} </a>{{ end }}
         {{ end }}
     </p>
-    <h1 class="entry-title">
+    {{ if ($.Scratch.Get "isHome") }}<div class="entry-title">{{ else }}<h1 class="entry-title" itemprop="headline">{{ end }}
         {{ if ($.Scratch.Get "isHome") }}<a href="{{ .Permalink }}">{{ .Title }}</a>{{ else }} {{ .Title }} {{ end }}
-    </h1>
+    {{ if ($.Scratch.Get "isHome") }}</div>{{ else }}</h1>{{ end }}
 </header>
