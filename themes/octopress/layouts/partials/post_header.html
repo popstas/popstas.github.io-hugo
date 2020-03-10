@@ -1,7 +1,7 @@
 <!-- Partial that generates the header/title for each post -->
 
 <header>
-  <p class="meta">{{ .Date.Format "2 Jan 2006, 15:04" }}
+  <p class="meta">{{ .Date.Format "02.01.2006, 15:04" }}
     {{ if not .Site.Params.disableReadingTime }} - {{ .ReadingTime }} мин читать {{ end }}
 
     {{ if isset .Params "categories" }}

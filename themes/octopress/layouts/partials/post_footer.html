@@ -26,11 +26,11 @@
 
   <p class="meta">
     {{ with .PrevInSection }}
-        <a class="basic-alignment left" href="{{ .Permalink }}" title="{{ .LinkTitle }}">{{ .LinkTitle }}</a>
+        <div>Новее: <a class="related" href="{{ .Permalink }}" title="{{ .LinkTitle }}">{{ .LinkTitle }}</a></div>
     {{ end }}
 
     {{ with .NextInSection }}
-      <a class="basic-alignment right" href="{{ .Permalink }}" title="{{ .LinkTitle }}">{{ .LinkTitle }}</a>
+        <div>Старее: <a class="related" href="{{ .Permalink }}" title="{{ .LinkTitle }}">{{ .LinkTitle }}</a></div>
     {{ end }}
   </p>
   {{ if .Site.DisqusShortname }}
