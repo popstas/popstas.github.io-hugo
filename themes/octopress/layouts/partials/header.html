@@ -41,7 +41,7 @@
   <link href="http://feeds.feedburner.com/popstas" rel="alternate" type="application/rss+xml" title="RSS" />
 
   <meta name="description" content="{{ if .IsHome }}{{ $.Site.Params.description }}{{ else }}{{ .Description }}{{ end }}" />
-  <meta name="keywords" content="{{ range $index, $element := .Keywords }}{{ if gt $index 0 }},{{ end }}{{ . }}{{ else }}{{ .Site.Params.defaultKeywords }}{{ end }}">
+  <meta name="keywords" content="{{ range $index, $element := .Params.Tags }}{{ if gt $index 0 }}, {{ end }}{{ . }}{{ else }}{{ .Site.Params.defaultKeywords }}{{ end }}">
   <meta name="author" content="{{ .Site.Params.author }}">
 
   <!-- Generator version for usage tracking -->
