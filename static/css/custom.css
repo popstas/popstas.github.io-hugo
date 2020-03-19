@@ -18,6 +18,21 @@ article header p.meta {
     margin-left: 2px;
 }
 
+h2:target, h3:target, h4:target, h5:target {
+    padding-top: 15px !important;
+}
+h2 .heading-anchor, h3 .heading-anchor, h4 .heading-anchor, h5 .heading-anchor {
+    display: none;
+    margin-top: -5px;
+    margin-left: 0.5em;
+    font-size: 0.45em;
+    vertical-align: middle;
+    text-decoration: none;
+}
+h2:hover .heading-anchor, h3:hover .heading-anchor, h4:hover .heading-anchor, h5:hover .heading-anchor {
+    display: inline-block;
+}
+
 #content .blog-index a.full-article {
     background: #ebebeb;
     display: inline-block;
