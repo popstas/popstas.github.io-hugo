@@ -2,7 +2,7 @@
 title = "Как я обрабатываю входящие потоки контента через RSS и Pocket или моя воронка статей"
 date = "2016-02-27T14:48:03"
 slug = "content-consumption-pyramid-rss"
-Tags = ["pocket", "twitter", "rss", "podcasts"]
+tags = ["offtop", "pocket", "twitter", "rss", "podcasts"]
 +++
 
 Хочу поделиться своим способом быть в курсе всего интересного в мире IT, читать много статей и знать, где быстро найти нужную статью.

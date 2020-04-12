@@ -2,7 +2,7 @@
 title = "ansible-role-zsh: zsh терминал с autosuggestions, fzf и красивым удобным prompt"
 date = "2017-03-09T08:00:00"
 slug = "ansible-role-zsh-powerlevel9k-fzf-syntax-autosuggestions"
-Tags = ["bash", "zsh", "oh-my-zsh", "powerlevel9k", "ansible-role", "zsh-autosuggestions", "zsh-syntax-highlighting", "fzf", "zsh-command-time", "percol", "powerline"]
+tags = ["projects", "bash", "zsh", "oh-my-zsh", "powerlevel9k", "ansible-role", "zsh-autosuggestions", "zsh-syntax-highlighting", "fzf", "zsh-command-time", "percol", "powerline"]
 +++
 
 Репост [моей статьи с хабра](https://habrahabr.ru/post/323496/).

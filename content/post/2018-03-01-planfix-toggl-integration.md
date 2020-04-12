@@ -2,7 +2,7 @@
 title = "Интеграция Планфикса и Toggl для учета времени"
 date = "2018-03-01T20:30:00+06:00"
 slug = "planfix-toggl-integration"
-Tags = ["planfix", "toggl", "go", "nodejs", "vue", "onsenui"]
+tags = ["projects", "planfix", "toggl", "go", "nodejs", "vue", "javascript", "onsenui"]
 +++
 
 Прошло ровно 2 года с тех пор, как я сделал прошлую интеграцию [Планфикса с Git](/blog/2016/03/02/git-gitlab-planfix-integration/), так получилось, что я опять в отпуске и опять готов поделиться новой интеграцией.

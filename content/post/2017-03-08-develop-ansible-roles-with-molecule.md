@@ -2,7 +2,7 @@
 title = "Мой процесс написания ansible роли с Molecule и Gitlab CI"
 date = "2017-03-08T01:00:00"
 slug = "develop-ansible-roles-with-molecule-and-gitlab-ci"
-Tags = ["ansible", "molecule", "docker", "gitlab-ci", "travis", "workflow"]
+tags = ["ansible", "molecule", "docker", "gitlab-ci", "ci", "travis", "workflow"]
 +++
 
 Опишу процесс, к которому я пришел на данный момент.

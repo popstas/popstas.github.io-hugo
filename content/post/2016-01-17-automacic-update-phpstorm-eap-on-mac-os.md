@@ -2,7 +2,7 @@
 title = "Быстрое обновление PhpStorm EAP на Mac OS через bash"
 date = "2016-01-17T07:50:17"
 slug = "automacic-update-phpstorm-eap-on-mac-os"
-Tags = ["bash", "macos", "phpstorm", "fast"]
+tags = ["bash", "macos", "phpstorm", "jetbrains", "fast"]
 +++
 
 Надоело постоянно обновлять PhpStorm руками. На Ubuntu последнее время делал это с помощью ansible,
@@ -11,6 +11,9 @@ Tags = ["bash", "macos", "phpstorm", "fast"]
 
 UPD: 06.06.2016
 Сегодня вышла EAP 2016.1.1, так вот, теперь app ставится не в PhpStormEAP, как раньше, а с версией, поэтому мой скрипт перестал работать.
+
+UPD: 30.03.2018
+JetBrains выпустил официальный инструмент для автообновления всего: [Toolbox App](https://www.jetbrains.com/toolbox-app/)
 
 {{< mainimg src="http://blog.jetbrains.com/phpstorm/files/2016/01/PhpStorm11EAP_splash_2@2x.png" >}}
 

@@ -2,7 +2,7 @@
 title = "Подсветка Python синтаксиса в PhpStorm"
 date = "2017-03-13T00:30:00"
 slug = "python-highlight-syntax-in-phpstorm"
-Tags = ["phpstorm", "python", "textmate"]
+tags = ["phpstorm", "jetbrains", "python", "textmate"]
 +++
 
 Я долго терпел, но сегодня решил выяснить: можно ли добавить поддержку Python в PhpStorm.

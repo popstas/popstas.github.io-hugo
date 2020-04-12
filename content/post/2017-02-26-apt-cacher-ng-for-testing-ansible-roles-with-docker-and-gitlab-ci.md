@@ -2,7 +2,7 @@
 title = "Настройка кеширующего прокси apt-cacher-ng для ускорения тестирования ansible ролей с Molecule, Gitlab CI и Docker"
 date = "2017-02-26T04:14:00"
 slug = "apt-cacher-ng-for-testing-ansible-roles-with-docker-and-gitlab-ci"
-Tags = ["ubuntu", "apt", "apt-mirror", "apt-cacher", "apt-cacher-ng", "gitlab", "ci", "travis", "docker", "ansible", "molecule"]
+tags = ["ubuntu", "apt", "apt-mirror", "apt-cacher", "apt-cacher-ng", "gitlab", "ci", "travis", "docker", "ansible", "molecule", "ansible"]
 +++
 
 

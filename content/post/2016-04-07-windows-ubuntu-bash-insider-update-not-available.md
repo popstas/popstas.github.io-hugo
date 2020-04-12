@@ -2,7 +2,7 @@
 title = "Windows 10 build 14316 со встроенной Ubuntu и bash через программу Microsoft Insider Preview доступна не всем"
 date = "2016-04-07T00:26:00"
 slug = "windows-ubuntu-bash-insider-update-not-available"
-Tags = ["microsoft", "bash", "ubuntu", "update", "insider"]
+tags = ["windows", "microsoft", "bash", "ubuntu", "update", "insider"]
 +++
 
 Все конечно слышали, что Microsoft и Canonical сговорились и встроили в винду линукс. Так вот, его пока еще нельзя потрогать.
@@ -11,8 +11,6 @@ UPD 11.04.2016: сборка 14316 дошла до меня, смотрите и
 
 - [issue про недоступность сборки 14316](https://github.com/Microsoft/CommandLine-Documentation/issues/5)
 - [Инструкция по обновлению на русском](http://blog.zacorp.ru/main/kak-vklyuchit-podderzhku-ubuntu-v-windows-10/)
-
-{{< mainimg src="http://az648995.vo.msecnd.net/win/2016/04/bash-1024x569.png" >}}
 
 <!--more-->
 

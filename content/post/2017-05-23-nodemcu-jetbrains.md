@@ -2,7 +2,7 @@
 title = "Интеграция NodeMCU и JetBrains IDE на примере IDEA или как я чуть не написал свою IDE"
 date = "2017-05-23T21:20:00"
 slug = "nodemcu-integrate-jetbrains-ide"
-Tags = ["nodemcu", "jetbrains", "idea", "phpstorm", "python", "atom", "vscode", "lua"]
+tags = ["nodemcu", "esp8266", "idea", "phpstorm", "jetbrains", "python", "atom", "vscode", "lua"]
 +++
 
 Я в последнее время делаю себе домашние девайсы на ESP-8266, использую прошивку nodemcu-firmware, а значит Lua.

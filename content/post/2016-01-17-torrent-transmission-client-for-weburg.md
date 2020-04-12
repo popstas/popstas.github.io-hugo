@@ -2,7 +2,7 @@
 title = "Автоматическое скачивание торрентов с Weburg в Transmission и статистика на InfluxDB & Grafana"
 date = "2016-01-17T08:22:25"
 slug = "torrent-transmission-client-for-weburg"
-Tags = ["transmission-cli", "php", "influxdb", "influxdata", "grafana", "travis", "ci", "symfony", "docker", "box", "phar", "phpcs", "phpmd", "composer", "coveralls"]
+tags = ["projects", "transmission-cli", "php", "influxdb", "influxdata", "grafana", "travis", "ci", "symfony", "docker", "box", "phar", "phpcs", "phpmd", "composer", "coveralls"]
 +++
 
 У моего интернет-провайдера Планета есть бонусная программа поощрения раздачи торрентов с [weburg.net](http://weburg.net), дающая бонусы,
