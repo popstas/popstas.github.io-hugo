@@ -2,7 +2,7 @@
 title = "Перенос блога с Octopress на Hugo"
 date = "2017-03-05T20:45:00"
 slug = "migrate-from-octopress-to-hugo"
-Tags = ["octopress", "hugo", "go", "ruby", "blog"]
+tags = ["octopress", "hugo", "go", "ruby", "blog"]
 +++
 
 Эта статья первая на новом движке.

@@ -2,7 +2,7 @@
 title = "Извлечение одной из папок в git репозитории в отдельный репозиторий с сохранением истории - git-extract-subproject"
 date = "2017-02-22T01:19:00"
 slug = "2017/02/22/git-extract-subproject-preserving-history"
-Tags = ["bash", "git", "ansible", "server-scripts"]
+tags = ["bash", "git", "ansible", "server-scripts"]
 +++
 
 Занялся я тут распиливанием большого проекта (дерево ansible ролей) на отдельные репозитории.

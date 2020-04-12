@@ -2,7 +2,7 @@
 title = "Kapacitor: часть 1. Введение, сравнение с Monit, установка с Ansible и без, настройка"
 date = "2016-05-19T00:47:52"
 slug = "kapacitor-ansible-install-monit-comparsion"
-Tags = ["monitoring", "alerting", "influxdata", "kapacitor", "ansible", "github", "monit"]
+tags = ["monitoring", "alerting", "influxdata", "kapacitor", "ansible", "github", "monit"]
 +++
 
 Несколько недель назад я начал разбираться с Kapacitor, попутно записывая свои действия. Конца разбирательствам было не видно, записей становилось все больше и накопилось на серию.

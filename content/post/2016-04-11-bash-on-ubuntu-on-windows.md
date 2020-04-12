@@ -2,7 +2,7 @@
 title = "Bash on Ubuntu on Windows: первый блин"
 date = "2016-04-11T05:01:00"
 slug = "bash-on-ubuntu-on-windows"
-Tags = ["bash", "windows", "ubuntu", "microsoft"]
+tags = ["bash", "windows", "ubuntu", "microsoft"]
 +++
 
 Итак, [дождался обновления](/blog/2016/04/07/windows-ubuntu-bash-insider-update-not-available/) Windows, поставил в нее Ubuntu [по инструкции](http://blog.zacorp.ru/main/kak-vklyuchit-podderzhku-ubuntu-v-windows-10/), вот что было дальше:
@@ -11,7 +11,7 @@ Tl;dr: оно очень сырое, не работает почти ничег
 
 {{< mainimg src="/images/2016-04/windows-ubuntu-bash.png" >}}
 
-<!--more -->
+<!--more-->
 Первым делом захотелось родной zsh, берем aptitude, ставим, Ubuntu же!
 Шелл открылся под root, так что sudo не нужен.
 

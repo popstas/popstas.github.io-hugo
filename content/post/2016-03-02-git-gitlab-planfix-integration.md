@@ -2,7 +2,7 @@
 title = "Интеграция Git, Gitlab и Planfix почти как на Github"
 date = "2016-03-02T00:49:29"
 slug = "git-gitlab-planfix-integration"
-Tags = ["git", "bash", "gitlab", "planfix", "github"]
+tags = ["git", "bash", "gitlab", "planfix", "github"]
 +++
 
 Распробовал тут на неделе интеграцию задач Github и самого Git issue tracker.

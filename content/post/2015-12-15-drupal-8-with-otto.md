@@ -2,7 +2,7 @@
 title = "Разворачиваем Drupal 8 с помощью Otto"
 date = "2015-12-14T08:16:00"
 slug = "drupal-8-with-otto"
-Tags = ["otto", "vagrant", "drupal", "consul", "hashicorp"]
+tags = ["otto", "vagrant", "drupal", "consul", "hashicorp"]
 +++
 
 Репост [моей статьи](https://habrahabr.ru/post/273009/) с хабра.

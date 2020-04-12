@@ -2,7 +2,7 @@
 title = "Проверяем изменения на странице через cron"
 date = "2016-01-31T02:00:13"
 slug = "check-webpage-changes-with-cron"
-Tags = ["bash"]
+tags = ["bash"]
 +++
 
 Сегодня хотел заказать ароматизаторов на [Baker Flavours](http://baker-flavors.blogspot.ru/), дошел до страницы заказа,

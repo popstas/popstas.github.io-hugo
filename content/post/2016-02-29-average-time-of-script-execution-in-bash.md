@@ -2,7 +2,7 @@
 title = "average: измерение среднего времени выполнения команды в bash"
 date = "2016-02-29T03:46:56"
 slug = "average-time-of-script-execution-in-bash"
-Tags = ["bash", "server-scripts"]
+tags = ["bash", "server-scripts"]
 +++
 
 Периодически хочется посчитать среднее время, у меня были такие сценарии:

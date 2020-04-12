@@ -2,7 +2,7 @@
 title = "Packer: создаем свои vagrant box и docker image из одного конфига"
 date = "2017-03-26T21:30:00"
 slug = "packer-create-vagrant-box-from-ansible-playbook"
-Tags = ["vagrant", "packer", "ansible", "ubuntu"]
+tags = ["vagrant", "packer", "ansible", "ubuntu"]
 +++
 
 Проект [viasite-ansible/ansible-server](https://github.com/viasite-ansible/ansible-server) подошел к моменту,

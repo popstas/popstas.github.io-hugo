@@ -2,7 +2,7 @@
 title = "Docker в картинках"
 date = "2016-02-26T21:29:45"
 slug = "docker-in-images"
-Tags = ["docker"]
+tags = ["docker"]
 +++
 
 Оставлю здесь [свой пост](http://habrahabr.ru/post/272145/) с хабра.

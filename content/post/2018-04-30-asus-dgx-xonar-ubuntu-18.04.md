@@ -2,7 +2,7 @@
 title = "Настройка звука Asus DGX Xonar 5.1 на Ubuntu 18.04"
 date = "2018-04-30T19:53:00+06:00"
 slug = "asus-dgx-xonar-ubuntu-18.04"
-Tags = ["ubuntu desktop", "asus-dgx", "drivers", "18.04"]
+tags = ["ubuntu desktop", "asus-dgx", "drivers", "18.04"]
 +++
 
 Драйвера поставились сами. Звук определился, но не играл. Помог [этот пост](https://askubuntu.com/questions/598759/asus-xonar-dgx-recognized-but-no-sound):

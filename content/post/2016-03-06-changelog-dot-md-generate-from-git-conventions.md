@@ -2,7 +2,7 @@
 title = "CHANGELOG.md: ручное и автоматическое ведение истории изменений проекта в Git"
 date = "2016-03-06T10:09:13"
 slug = "changelog-dot-md-generate-from-git-conventions"
-Tags = ["transmission-cli", "git", "changelog", "github", "docs"]
+tags = ["transmission-cli", "git", "changelog", "github", "docs"]
 +++
 
 С начала января я веду свой [проектик](/blog/2016/01/17/torrent-transmission-client-for-weburg/), на котором обкатываю новые для меня технологии:

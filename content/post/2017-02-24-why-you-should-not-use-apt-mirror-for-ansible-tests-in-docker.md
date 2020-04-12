@@ -2,7 +2,7 @@
 title = "Как я создал и отказался от локального репозитория apt-mirror для Ubuntu для ускорения тестирования ansible ролей"
 date = "2017-02-24T17:39:00"
 slug = "why-you-should-not-use-apt-mirror-for-ansible-tests-in-docker"
-Tags = ["ubuntu", "apt", "apt-mirror", "apt-cacher", "apt-cacher-ng", "gitlab", "ci", "docker", "ansible", "molecule", "artifactory"]
+tags = ["ubuntu", "apt", "apt-mirror", "apt-cacher", "apt-cacher-ng", "gitlab", "ci", "docker", "ansible", "molecule", "artifactory"]
 +++
 
 При тестировании плейбуков на чистой Ubuntu (а как же еще?) самые большие накладные расходы по времени (субъективно)

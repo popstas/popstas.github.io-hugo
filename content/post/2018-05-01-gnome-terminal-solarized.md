@@ -2,7 +2,7 @@
 title = "Настройка Gnome Terminal: Solarized Dark и быстрый выбор профиля"
 date = "2018-05-01T08:20:00+06:00"
 slug = "gnome-terminal-solarized"
-Tags = ["ubuntu desktop", "gnome", "18.04"]
+tags = ["ubuntu desktop", "gnome", "18.04"]
 +++
 
 Ниже будет описана настройка Solarized Dark, быстрого открытия терминала с нужным профилем и история бага во встроенной схеме.

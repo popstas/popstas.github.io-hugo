@@ -2,7 +2,7 @@
 title = "Переезд с Windows на Ubuntu 18.04, попытка номер 5"
 date = "2018-04-30T18:40:00+06:00"
 slug = "windows-ubuntu-18.04-migrate"
-Tags = ["ubuntu", "ubuntu desktop", "18.04"]
+tags = ["ubuntu", "ubuntu desktop", "18.04"]
 +++
 
 26.04.2018 вышла новая Ubuntu 18.04 LTS, и по традиции я решил попробовать на нее переехать, этот пост - отчет о переезде.

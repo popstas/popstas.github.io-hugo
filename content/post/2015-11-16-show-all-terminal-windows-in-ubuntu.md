@@ -2,7 +2,7 @@
 title = "Показать все окна gnome terminal в Ubuntu"
 date = "2015-11-16T23:55:17"
 slug = "show-all-terminal-windows-in-ubuntu"
-Tags = ["ubuntu", "bash"]
+tags = ["ubuntu", "bash"]
 +++
 
 При работе за компом имею привычку открывать много терминалов, 

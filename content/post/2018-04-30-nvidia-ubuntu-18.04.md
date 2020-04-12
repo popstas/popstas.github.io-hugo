@@ -2,7 +2,7 @@
 title = "Настройка Nvidia Geforce 1050Ti на Ubuntu 18.04"
 date = "2018-04-30T19:46:00+06:00"
 slug = "nvidia-ubuntu-18.04"
-Tags = ["ubuntu desktop", "nvidia", "drivers", "18.04"]
+tags = ["ubuntu desktop", "nvidia", "drivers", "18.04"]
 +++
 
 Видяшка из коробки работала погано: томоза, видео глючило, 4к монитор работал на 30 герц. Это было из коробки, с драйверами nouveau. Помогла [эта статья](https://linuxconfig.org/how-to-install-the-nvidia-drivers-on-ubuntu-18-04-bionic-beaver-linux), вот краткое содержание:
