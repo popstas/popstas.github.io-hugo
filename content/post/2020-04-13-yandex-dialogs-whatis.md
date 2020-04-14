@@ -37,7 +37,7 @@ Github - [yandex-dialogs-whatis](https://github.com/popstas/yandex-dialogs-whati
 - Используются commands, scenes, matchers, middlewares из SDK
 - Выбор базы данных между MongoDB и Loki (локальное файловое хранилище) через драйвер БД
 - Выбор сценария на основе простого морфологического разбора
-- Система тестирования на основе [сценариев](#проверить-все-сценарии)
+- Система тестирования на основе [сценариев](https://blog.popstas.ru/blog/2020/04/14/yandex-dialogs/#yandex-dialogs-client---инструмент-для-тестирования-навыков)
 - Модульность команд (подробнее в CONTRIBUTING.md), главный файл навыка состоит только из подключений middlewares и commands
 - Метрики передаются в [chatbase](https://github.com/popstas/yandex-dialogs-sdk-chatbase), с полной разметкой intents и в Яндекс.Метрику
 - Лог запросов и ответов с id юзеров, номером визита и номером сообщения в визите
