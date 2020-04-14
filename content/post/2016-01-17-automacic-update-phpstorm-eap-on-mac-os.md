@@ -15,7 +15,7 @@ UPD: 06.06.2016
 UPD: 30.03.2018
 JetBrains выпустил официальный инструмент для автообновления всего: [Toolbox App](https://www.jetbrains.com/toolbox-app/)
 
-{{< mainimg src="http://blog.jetbrains.com/phpstorm/files/2016/01/PhpStorm11EAP_splash_2@2x.png" >}}
+{{< mainimg src="https://blog.jetbrains.com/phpstorm/files/2016/01/PhpStorm11EAP_splash_2@2x.png" >}}
 
 <!--more-->
 

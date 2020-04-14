@@ -54,7 +54,7 @@ zle -N copy-earlier-word
 bindkey "^[," copy-earlier-word
 ```
 Код надо вставить в `.zshrc` или `.zshrc.local` если вы пользуетесь 
-[ansible-role-zsh](http://blog.popstas.ru/blog/2017/03/09/ansible-role-zsh-powerlevel9k-fzf-syntax-autosuggestions/)
+[ansible-role-zsh](/blog/2017/03/09/ansible-role-zsh-powerlevel9k-fzf-syntax-autosuggestions/)
 
 Виджет вставляет последний аргумент текущей команды, но если нажать еще дважды - вставит предпоследний.
 Например, вы ввели команду `some-command arg1 arg2`, чтобы вставить предпоследний аргумент, нажмите `<Alt+.><Alt+,><Alt+,>`.

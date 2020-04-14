@@ -38,7 +38,7 @@ tags = ["projects", "bash", "zsh", "oh-my-zsh", "powerlevel9k", "ansible-role", 
 Раньше я пользовался [powerline](https://github.com/powerline/powerline), который отвечал за command prompt (строку состояния)
 и [percol](https://github.com/mooz/percol#zsh-history-search) для интерактивного поиска. Обе утилиты написаны на python.
 Они хороши, когда я нашел percol, скорость работы в терминале сразу выросла, 
-я радовался этому [в блоге](http://blog.popstas.ru/blog/2015/12/10/interactive-bash-history-with-search/),
+я радовался этому [в блоге](/blog/2015/12/10/interactive-bash-history-with-search/),
 но ставилось это все не очень красиво (bash инсталлером), имело некоторые проблемы при работе нескольких юзеров
 с красивыми терминалами на одном сервере.
 
