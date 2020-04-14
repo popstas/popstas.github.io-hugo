@@ -6,5 +6,5 @@ Tags = []
 draft = true
 +++
 
-<img itemprop="image" src="/images/2017-03/" />
+{{< mainimg src="/images/2020-04/" >}}
 <!--more-->
