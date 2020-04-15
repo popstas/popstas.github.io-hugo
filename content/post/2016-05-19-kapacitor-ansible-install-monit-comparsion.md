@@ -2,6 +2,7 @@
 title = "Kapacitor: часть 1. Введение, сравнение с Monit, установка с Ansible и без, настройка"
 date = "2016-05-19T00:47:52"
 slug = "kapacitor-ansible-install-monit-comparsion"
+image = "/images/2016-05/kapacitor.svg"
 tags = ["monitoring", "alerting", "influxdata", "kapacitor", "ansible", "github", "monit"]
 +++
 
@@ -14,8 +15,7 @@ Tl;dr: думаю, что Kapacitor нужен только тем, кто уж�
 А также небольшое замечание о том, [как делать Pull request'ы из браузера за 2 минуты](/blog/2016/05/19/kapacitor-ansible-install-monit-comparsion/#github-pull-request)
 
 
-{{< mainimg src="/images/2016-05/kapacitor.svg" >}}
-
+![Kapacitor]({{< param image >}})
 <!--more-->
 
 Я уже настроил три слоя из стека: на серверах стоят агенты Telegraf, передают метрики в InfluxDB, их можно смотреть в виде графиков через Grafana (InfluxData предлагает свой Chronograf, но он сильно отстает от Grafana по функционалу на январь 2016 и вряд ли это изменится).

@@ -2,6 +2,7 @@
 title = "Переезд с Windows на Ubuntu 18.04, попытка номер 5"
 date = "2018-04-30T18:40:00+06:00"
 slug = "windows-ubuntu-18.04-migrate"
+image = "/images/2018-04/windows-ubuntu.jpg"
 tags = ["ubuntu", "ubuntu desktop", "18.04"]
 +++
 
@@ -13,8 +14,7 @@ tags = ["ubuntu", "ubuntu desktop", "18.04"]
 
 UPD 13.07.2018: цикл статей оборвался из-за того, что я не смог побороть глюк Nvidia (см. комменты) и вернулся на Windows. Можно сказать, что это был такой сложный способ найти крутую скриншотилку Monosnap :)
 
-{{< mainimg src="/images/2018-04/windows-ubuntu.jpg" >}}
-
+![from windows to ubuntu]({{< param image >}})
 <!--more-->
 
 Статьи цикла можно было бы найти по тегу 18.04, но hugo что-то сломался и выдает RSS ленту вместо HTML страницы, так что придется вручную.

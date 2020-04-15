@@ -2,12 +2,13 @@
 title = "Яндекс.Диалоги: как я делал навыки для Алисы и инструменты для разработки"
 date = "2020-04-14T19:45:00+06:00"
 slug = "yandex-dialogs"
+image = "/images/2020-04/yandex-dialogs.png"
 tags = ["projects", "opensource", "github", "nodejs", "vue", "yandex-dialogs", "ci"]
 +++
 
 История написания навыков для Алисы и тестилок для них.
 
-{{< mainimg src="/images/2020-04/yandex-dialogs.png" >}}
+![Яндекс Алиса, Список покупок, Вторая память, Node.js]({{< param image >}})
 <!--more-->
 
 ### Предыстория

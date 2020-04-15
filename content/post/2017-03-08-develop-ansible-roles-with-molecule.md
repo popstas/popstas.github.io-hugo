@@ -2,6 +2,7 @@
 title = "Мой процесс написания ansible роли с Molecule и Gitlab CI"
 date = "2017-03-08T01:00:00"
 slug = "develop-ansible-roles-with-molecule-and-gitlab-ci"
+image = "/images/2017-03/iterations.png"
 tags = ["ansible", "molecule", "docker", "gitlab-ci", "ci", "travis", "workflow"]
 +++
 
@@ -15,7 +16,7 @@ TODO: несколько дистрибов
 - Постепенное ужесточение требований при написании, от "Лишь бы прошло с 10 раза" к "Скорее всего Travis пройдет с первого раза"
 - Тестирование на разных машинах
 
-{{< mainimg src="/images/2017-03/iterations.png" >}}
+![build progress]({{< param image >}})
 <!--more-->
 
 

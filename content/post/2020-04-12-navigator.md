@@ -30,6 +30,7 @@ weight = -1
 - [Итоги года](/tags/итоги-года)
 - [3D печать](/tags/3d-printer)
 - [Умный дом](/tags/smart-home/)
+- [Девайсы](/tags/gadgets/)
 
 <!--more-->
 

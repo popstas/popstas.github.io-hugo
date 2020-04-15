@@ -2,6 +2,7 @@
 title = "Разворачиваем Drupal 8 с помощью Otto"
 date = "2015-12-14T08:16:00"
 slug = "drupal-8-with-otto"
+image = "https://habrastorage.org/files/6d4/ec4/b47/6d4ec4b4786f47048d5fd55301234115.png"
 tags = ["otto", "vagrant", "drupal", "consul", "hashicorp"]
 +++
 
@@ -13,8 +14,7 @@ tags = ["otto", "vagrant", "drupal", "consul", "hashicorp"]
 Мой пост носит более практический характер. Я решил поднять на otto стандартный проект,
 чтобы сразу не наткнуться на тонкости настройки, а чтобы было интересно, выбрал Drupal 8, вышедший недавно.
 
-{{< mainimg src="https://habrastorage.org/files/6d4/ec4/b47/6d4ec4b4786f47048d5fd55301234115.png" >}}
-
+![Otto]({{< param image >}})
 <!--more-->
 
 ## Установка

@@ -2,6 +2,7 @@
 title = "Конспекты курса Deep Learning на пальцах 2019: таймкоды"
 date = "2020-04-12T22:51:00+06:00"
 slug = "deep-learning-ngu-2019"
+image = "/images/2020-04/deep-learning-2019.jpg"
 tags = ["ML", "tensorflow", "pytorch"]
 +++
 
@@ -13,8 +14,7 @@ tags = ["ML", "tensorflow", "pytorch"]
 
 На данный момент я посмотрел 10 лекций.
 
-{{< mainimg src="/images/2020-04/deep-learning-2019.jpg" >}}
-
+![]({{< param image >}})
 <!--more-->
 
 ## [1. Введение](https://www.youtube.com/watch?v=_q46x0tq2FQ&list=PL5FkQ0AF9O_o2Eb5Qn8pwCDg7TniyV1Wb&index=1)

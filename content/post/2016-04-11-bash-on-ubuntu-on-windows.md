@@ -2,6 +2,7 @@
 title = "Bash on Ubuntu on Windows: первый блин"
 date = "2016-04-11T05:01:00"
 slug = "bash-on-ubuntu-on-windows"
+image = "/images/2016-04/windows-ubuntu-bash.png"
 tags = ["bash", "windows", "ubuntu", "microsoft"]
 +++
 
@@ -9,9 +10,9 @@ tags = ["bash", "windows", "ubuntu", "microsoft"]
 
 Tl;dr: оно очень сырое, не работает почти ничего.
 
-{{< mainimg src="/images/2016-04/windows-ubuntu-bash.png" >}}
-
+![Bash on Ubuntu on Windows]({{< param image >}})
 <!--more-->
+
 Первым делом захотелось родной zsh, берем aptitude, ставим, Ubuntu же!
 Шелл открылся под root, так что sudo не нужен.
 

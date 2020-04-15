@@ -2,6 +2,7 @@
 title = "Полочки для чая на 3d принтере"
 date = "2018-11-07T20:45:00+06:00"
 slug = "3d-printed-expandable-tea-box"
+image = "/images/2018-11/3d-printed-expandable-tea-box-1.jpg"
 tags = ["3d printer"]
 +++
 
@@ -9,7 +10,7 @@ tags = ["3d printer"]
 
 TL;DR: получилось достаточно хорошо, чтобы выложить [первую модель на thingverse](https://www.thingiverse.com/thing:3197921).
 
-{{< mainimg src="/images/2018-11/3d-printed-expandable-tea-box-1.jpg" >}}
+![3d-printed expandable tea box]({{< param image >}})
 <!--more-->
 
 Небольшое вступление: я люблю покупать много разного чая, так много, что не все коробки помещаются в чайный шкафчик. Желание поставить полочки для чая вместо стандартных коробок пришло задолго до приобретения принтера, я искал на aliexpress подходящие, но ничего не нашел.

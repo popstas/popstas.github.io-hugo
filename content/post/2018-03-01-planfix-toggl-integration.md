@@ -2,6 +2,7 @@
 title = "Интеграция Планфикса и Toggl для учета времени"
 date = "2018-03-01T20:30:00+06:00"
 slug = "planfix-toggl-integration"
+image = "/images/2018-03/planfix-toggl.png"
 tags = ["projects", "planfix", "toggl", "go", "nodejs", "vue", "javascript", "onsenui"]
 +++
 
@@ -13,8 +14,7 @@ Tl;dr: автоматическая отправка из Toggl в Планфи�
 - [Ссылки на загрузки](https://github.com/viasite/planfix-toggl-server/releases) (проверялось только под Windows и Linux)
 - Расширения для [Chrome](https://chrome.google.com/webstore/detail/toggl-button-planfix-edit/hkhchfdjhfegkhkgjongbodaphidfmcl) и [Firefox](https://addons.mozilla.org/ru/firefox/addon/toggl-button-planfix/)
 
-{{< mainimg src="/images/2018-03/planfix-toggl.png" >}}
-
+![planfix and toggl]({{< param image >}})
 <!--more-->
 
 ## Toggl

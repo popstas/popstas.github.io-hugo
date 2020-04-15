@@ -2,6 +2,7 @@
 title = "Интерактивная Zsh history с поиском и скроллом, percol"
 date = "2015-12-10T19:55:20"
 slug = "interactive-bash-history-with-search"
+image = "/images/2015-12/percol.gif"
 tags = ["bash", "zsh", "oh-my-zsh", "powerline", "percol"]
 +++
 
@@ -11,8 +12,7 @@ tags = ["bash", "zsh", "oh-my-zsh", "powerline", "percol"]
 
 Утилита [percol](https://github.com/mooz/percol#zsh-history-search) решает эту проблему.
 
-{{< mainimg src="/images/2015-12/percol.gif" >}}
-
+![zsh history percol]({{< param image >}})
 <!--more-->
 
 Собственно по ссылке выше готовый конфиг для zsh. Я немного изменил его под себя, 

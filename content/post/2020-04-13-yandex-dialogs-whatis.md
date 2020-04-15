@@ -2,12 +2,13 @@
 title = "Навык для Алисы \"Вторая память\": технические особенности"
 date = "2020-04-13T23:55:00+06:00"
 slug = "yandex-dialogs-whatis"
+image = "/images/2020-04/yandex-dialogs-whatis.png"
 tags = ["projects", "nodejs", "vue", "yandex-dialogs"]
 +++
 
 Как устроена "Вторая память" для Алисы: ~~кишки, кровь, расчленёнка~~ команды, матчеры, мидлвари.
 
-{{< mainimg src="/images/2020-04/yandex-dialogs-whatis.png" >}}
+![Навык Вторая память]({{< param image >}})
 <!--more-->
 
 По сути "Вторая память" - это [voice-whatis](https://github.com/popstas/voice-whatis), реализованный в виде навыка.

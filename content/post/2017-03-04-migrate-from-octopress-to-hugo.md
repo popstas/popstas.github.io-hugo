@@ -2,6 +2,7 @@
 title = "Перенос блога с Octopress на Hugo"
 date = "2017-03-05T20:45:00"
 slug = "migrate-from-octopress-to-hugo"
+image = "/images/2017-03/octopress-to-hugo.png"
 tags = ["octopress", "hugo", "go", "ruby", "blog"]
 +++
 
@@ -12,7 +13,7 @@ tags = ["octopress", "hugo", "go", "ruby", "blog"]
 - быстрее
 - просто интересно
 
-{{< mainimg src="/images/2017-03/octopress-to-hugo.png" >}}
+![from octopress to hugo]({{< param image >}})
 <!--more-->
 
 ## Подробнее о причинах

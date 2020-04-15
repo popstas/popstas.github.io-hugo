@@ -2,13 +2,14 @@
 title = "Обзор умной колонки IRBIS A c Алисой от Яндекса"
 date = "2018-12-28T20:45:00+06:00"
 slug = "irbis-a-yandex-alice-review"
+image = "/images/2018-12/irbis-a1.jpg"
 tags = ["yandex-dialogs", "smart home", "gadgets"]
 +++
 
 14 декабря Яндекс [сообщил](https://yandex.ru/blog/company/kolonki-mladshie) о поступлении мини-колонок в продажу.
 Обзор после 2 дней использования.
 
-{{< mainimg src="/images/2018-12/irbis-a1.jpg" >}}
+![irbis a на кофеварке на кухне]({{< param image >}})
 <!--more-->
 
 Колонка продается только в М.Видео, заказ прошел очень быстро: ночью заказал, в обед уже забрал колонку из магазина.

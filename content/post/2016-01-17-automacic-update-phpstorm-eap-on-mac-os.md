@@ -2,6 +2,7 @@
 title = "Быстрое обновление PhpStorm EAP на Mac OS через bash"
 date = "2016-01-17T07:50:17"
 slug = "automacic-update-phpstorm-eap-on-mac-os"
+image = "https://blog.jetbrains.com/phpstorm/files/2016/01/PhpStorm11EAP_splash_2@2x.png"
 tags = ["bash", "macos", "phpstorm", "jetbrains", "fast"]
 +++
 
@@ -15,8 +16,7 @@ UPD: 06.06.2016
 UPD: 30.03.2018
 JetBrains выпустил официальный инструмент для автообновления всего: [Toolbox App](https://www.jetbrains.com/toolbox-app/)
 
-{{< mainimg src="https://blog.jetbrains.com/phpstorm/files/2016/01/PhpStorm11EAP_splash_2@2x.png" >}}
-
+![phpstorm]({{< param image >}})
 <!--more-->
 
 Что он делает:

@@ -2,6 +2,7 @@
 title = "Автоматическое скачивание торрентов с Weburg в Transmission и статистика на InfluxDB & Grafana"
 date = "2016-01-17T08:22:25"
 slug = "torrent-transmission-client-for-weburg"
+image = "https://github.com/popstas/transmission-cli/raw/master/docs/img/grafana.png?raw"
 tags = ["projects", "transmission-cli", "php", "influxdb", "influxdata", "grafana", "travis", "ci", "symfony", "docker", "box", "phar", "phpcs", "phpmd", "composer", "coveralls"]
 +++
 
@@ -21,8 +22,7 @@ tags = ["projects", "transmission-cli", "php", "influxdb", "influxdata", "grafan
 [![Build Status](https://travis-ci.org/popstas/transmission-cli.svg?branch=master)](https://travis-ci.org/popstas/transmission-cli)
 [![Coverage Status](https://coveralls.io/repos/popstas/transmission-cli/badge.svg?branch=master&service=github)](https://coveralls.io/github/popstas/transmission-cli?branch=master)
 
-{{< mainimg src="https://github.com/popstas/transmission-cli/raw/master/docs/img/grafana.png?raw=true" >}}
-
+![transmission-cli grafana]({{< param image >}})
 <!--more-->
 
 ## Возможности

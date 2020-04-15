@@ -2,6 +2,7 @@
 date = "2017-03-18T22:20:28"
 title = "Продублировать последний аргумент текущей команды в zsh, zle widget"
 slug = "zsh-duplicate-last-argument-in-current-command"
+image = "/images/2017-03/zsh-duplicate-last-arg.gif"
 tags = ["zsh", "zle", "fast"]
 
 +++
@@ -34,8 +35,7 @@ cp filename.ext <Alt+,>
 
 В действии:
 
-{{< mainimg src="/images/2017-03/zsh-duplicate-last-arg.gif" >}}
-
+![zsh duplicate last argument]({{< param image >}})
 <!--more-->
 
 Когда я правил чужие виджеты (виджетом в zsh называется функция, повешенная на хоткей), я понял,

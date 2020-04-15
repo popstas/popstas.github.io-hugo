@@ -2,7 +2,9 @@
 title = "CHANGELOG.md: ручное и автоматическое ведение истории изменений проекта в Git"
 date = "2016-03-06T10:09:13"
 slug = "changelog-dot-md-generate-from-git-conventions"
+image = "/images/2016-03/changelog.png"
 tags = ["transmission-cli", "git", "changelog", "github", "docs"]
+
 +++
 
 С начала января я веду свой [проектик](/blog/2016/01/17/torrent-transmission-client-for-weburg/), на котором обкатываю новые для меня технологии:
@@ -18,8 +20,9 @@ tags = ["transmission-cli", "git", "changelog", "github", "docs"]
 
 Tl;dr: conventional-changelog, стандартизация коммитов.
 
-{{< mainimg src="/images/2016-03/changelog.png" >}}
+UPD 14.04.2020: [как я использую conventional changelog в связке с npm version](/blog/2020/04/14/npm-version/)
 
+![changelog]({{< param image >}})
 <!--more-->
 
 ## CHANGELOG.md

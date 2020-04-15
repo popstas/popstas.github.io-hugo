@@ -2,6 +2,7 @@
 title = "Интеграция Git, Gitlab и Planfix почти как на Github"
 date = "2016-03-02T00:49:29"
 slug = "git-gitlab-planfix-integration"
+image = "/images/2016-03/planfix_logo.png"
 tags = ["git", "bash", "gitlab", "planfix", "github"]
 +++
 
@@ -19,8 +20,7 @@ Tl;dr: настраивается post-receive hook в Git на удаленно
 Вся интеграция делается в одном файле, код хука лежит здесь - 
 [git-hook-post-receive](https://github.com/popstas/server-scripts/blob/master/bin/git-hook-post-receive)
 
-{{< mainimg src="/images/2016-03/planfix_logo.png" >}}
-
+![planfix]({{< param image >}})
 <!--more-->
 
 Здесь надо в 2 словах рассказать о нашем workflow:

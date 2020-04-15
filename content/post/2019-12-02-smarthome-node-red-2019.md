@@ -2,6 +2,7 @@
 title = "Мой умный дом 2019: Sonoff, ESP8266, MQTT, Node-red, Алиса"
 date = "2019-12-02T02:00:00+06:00"
 slug = "smarthome-node-red-2019"
+image = "/images/2019-12/smarthome.jpg"
 tags = ["projects", "smart home", "javascript", "node-red", "sonoff", "yandex-dialogs", "esp8266"]
 +++
 
@@ -10,7 +11,7 @@ tags = ["projects", "smart home", "javascript", "node-red", "sonoff", "yandex-di
 
 
 
-{{< mainimg src="/images/2019-12/smarthome.jpg" >}}
+![smart home robot]({{< param image >}})
 (Кадр из психоделического советского мультика на тему, "[Будет ласковый дождь](https://www.youtube.com/watch?v=WfI69DC_jaw)").
 
 <!--more-->

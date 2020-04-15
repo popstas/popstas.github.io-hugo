@@ -2,6 +2,7 @@
 title = "Как я создал и отказался от локального репозитория apt-mirror для Ubuntu для ускорения тестирования ansible ролей"
 date = "2017-02-24T17:39:00"
 slug = "why-you-should-not-use-apt-mirror-for-ansible-tests-in-docker"
+image = "/images/2017-02/apt-mirror.png"
 tags = ["ubuntu", "apt", "apt-mirror", "apt-cacher", "apt-cacher-ng", "gitlab", "ci", "docker", "ansible", "molecule", "artifactory"]
 +++
 
@@ -12,8 +13,7 @@ tags = ["ubuntu", "apt", "apt-mirror", "apt-cacher", "apt-cacher-ng", "gitlab", 
 
 Tl;dr: не делайте локальный репозиторий через `apt-mirror` для мелких задач, не стоит оно того. Вместо этого нужно поднять кеширующий сервер через [apt-cacher-ng](/blog/2017/02/26/apt-cacher-ng-for-testing-ansible-roles-with-docker-and-gitlab-ci/).
 
-{{< mainimg src="/images/2017-02/apt-mirror.png" >}}
-
+![Tux and servers]({{< param image >}})
 <!--more-->
 
 ## Настройка apt-mirror

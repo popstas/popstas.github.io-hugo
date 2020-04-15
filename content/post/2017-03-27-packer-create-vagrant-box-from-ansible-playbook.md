@@ -2,6 +2,7 @@
 title = "Packer: создаем свои vagrant box и docker image из одного конфига"
 date = "2017-03-26T21:30:00"
 slug = "packer-create-vagrant-box-from-ansible-playbook"
+image = "/images/2017-03/ansible-packer-docker-vagrant.png"
 tags = ["vagrant", "packer", "ansible", "ubuntu"]
 +++
 
@@ -25,8 +26,7 @@ Packer умеет брать чистую операционку, настраи
 Tl;dr: я буду собирать образы для Docker и Vagrant из Ubuntu, на которую накатили ansible плейбук.
 Gist с результатами [здесь](https://gist.github.com/popstas/9a42d198fe7c5bee317d0bc4e2e2af9f).
 
-{{< mainimg src="/images/2017-03/ansible-packer-docker-vagrant.png" >}}
-
+![ansible with packer to vagrant and docker ]({{< param image >}})
 <!--more-->
 
 За основу я взял [geerlingguy/packer-ubuntu-1604](https://github.com/geerlingguy/packer-ubuntu-1604).

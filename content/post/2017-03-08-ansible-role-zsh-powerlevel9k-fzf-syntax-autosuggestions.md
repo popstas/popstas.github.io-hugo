@@ -2,6 +2,7 @@
 title = "ansible-role-zsh: zsh терминал с autosuggestions, fzf и красивым удобным prompt"
 date = "2017-03-09T08:00:00"
 slug = "ansible-role-zsh-powerlevel9k-fzf-syntax-autosuggestions"
+image = "/images/2017-03/ansible-role-zsh-demo.gif"
 tags = ["projects", "bash", "zsh", "oh-my-zsh", "powerlevel9k", "ansible-role", "zsh-autosuggestions", "zsh-syntax-highlighting", "fzf", "zsh-command-time", "percol", "powerline"]
 +++
 
@@ -31,8 +32,8 @@ tags = ["projects", "bash", "zsh", "oh-my-zsh", "powerlevel9k", "ansible-role", 
 - отображение времени для долго выполняемых команд (помогает реже использовать `time`)
 
 Демонстрация фич за 1 минуту:
-{{< mainimg src="/images/2017-03/ansible-role-zsh-demo.gif" >}}
 
+![ansible role zsh]({{< param image >}})
 <!--more-->
 
 Раньше я пользовался [powerline](https://github.com/powerline/powerline), который отвечал за command prompt (строку состояния)

@@ -2,13 +2,13 @@
 title = "Настройка gxneur в Ubuntu 18.04"
 date = "2018-05-01T05:35:00+06:00"
 slug = "gxneur-punto-switcher-ubuntu"
+image = "https://upload.wikimedia.org/wikipedia/ru/a/a3/Xneur_project.png"
 tags = ["ubuntu desktop", "18.04"]
 +++
 
 Для тех, кто не может жить без Punto Switcher, у меня плохие новости: нормальной замены на Ubuntu нет, на форуме люди говорят, что у кого-то работает идеально, я с 10.04 пробую, никогда идеально не было. Будем настраивать то, что есть.
 
-{{< mainimg src="https://upload.wikimedia.org/wikipedia/ru/a/a3/Xneur_project.png" >}}
-
+![gxneur]({{< param image >}})
 <!--more-->
 
 В 18.04 на данный момент последняя версия xneur, 0.20, ставим ее, а также aspell-ru, как [советуют](http://forum.ubuntu.ru/index.php?topic=165332.msg2337661#msg2337661) на форуме:

@@ -2,6 +2,7 @@
 title = "Мини обзор и тестирование робота-пылесоса ILIFE a9s: автоматическая уборка квартиры с коврами"
 date = "2019-04-04T20:55:00+06:00"
 slug = "robot-vacuum-cleaner-ilife-a9s-test"
+image = "/images/2019-04/ilife-a9s.jpg"
 tags = ["offtop", "smart home", "gadgets"]
 +++
 
@@ -15,8 +16,7 @@ UPD 14.01.2020: после обновления приложения до вер
 
 UPD 08.03.2020: после отката на версию 2.x заработало.
 
-{{< mainimg src="/images/2019-04/ilife-a9s.jpg" >}}
-
+![ilife a9s на ковре]({{< param image >}})
 <!--more-->
 
 Распаковку и маркетинговые фото можно посмотреть [на mysku.ru](https://mysku.ru/blog/aliexpress/71578.html).

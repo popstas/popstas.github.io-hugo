@@ -2,6 +2,7 @@
 title = "Простой тайм-трекер для отслеживания потраченного времени"
 date = "2015-11-22T09:40:45"
 slug = "simple-time-tracker"
+image = "https://github.com/popstas/time-tracker/raw/master/img/screenshot.png?raw=true"
 tags = ["projects", "gtd", "javascript"]
 +++
 
@@ -12,8 +13,7 @@ tags = ["projects", "gtd", "javascript"]
 
 Tl; dr: выбросил свою поделку, теперь пользуюсь https://www.toggl.com/
 
-{{< mainimg src="https://github.com/popstas/time-tracker/raw/master/img/screenshot.png?raw=true" >}}
-
+![time tracker]({{< param image >}})
 <!--more-->
 
 Конечно, перед тем, как написать свое, долго искал что-то похожее.

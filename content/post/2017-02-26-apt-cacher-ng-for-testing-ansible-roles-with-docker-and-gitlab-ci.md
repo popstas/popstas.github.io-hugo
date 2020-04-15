@@ -2,6 +2,7 @@
 title = "Настройка кеширующего прокси apt-cacher-ng для ускорения тестирования ansible ролей с Molecule, Gitlab CI и Docker"
 date = "2017-02-26T04:14:00"
 slug = "apt-cacher-ng-for-testing-ansible-roles-with-docker-and-gitlab-ci"
+image = "/images/2017-02/apt-cacher-ng.png"
 tags = ["ubuntu", "apt", "apt-mirror", "apt-cacher", "apt-cacher-ng", "gitlab", "ci", "travis", "docker", "ansible", "molecule", "ansible"]
 +++
 
@@ -13,8 +14,7 @@ tags = ["ubuntu", "apt", "apt-mirror", "apt-cacher", "apt-cacher-ng", "gitlab", 
 
 Tl;dr: на этот раз все получилось, этот способ меня устроил.
 
-{{< mainimg src="/images/2017-02/apt-cacher-ng.png" >}}
-
+![apt-cacher-ng and gitlab ci for ansible]({{< param image >}})
 <!--more-->
 
 

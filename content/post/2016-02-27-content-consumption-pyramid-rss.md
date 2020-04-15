@@ -2,6 +2,7 @@
 title = "Как я обрабатываю входящие потоки контента через RSS и Pocket или моя воронка статей"
 date = "2016-02-27T14:48:03"
 slug = "content-consumption-pyramid-rss"
+image = "/images/2016-02/content_pyramid.png"
 tags = ["offtop", "pocket", "twitter", "rss", "podcasts"]
 +++
 
@@ -9,8 +10,7 @@ tags = ["offtop", "pocket", "twitter", "rss", "podcasts"]
 
 Tl;dr: RSS + Twitter + Email &rarr; Pocket &rarr; Firefox &rarr; Twitter + закладки.
 
-{{< mainimg src="/images/2016-02/content_pyramid.png" >}}
-
+![content pyramid]({{< param image >}})
 <!--more-->
 
 ## Источники

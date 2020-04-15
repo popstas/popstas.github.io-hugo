@@ -2,6 +2,7 @@
 title = "Подсветка Python синтаксиса в PhpStorm"
 date = "2017-03-13T00:30:00"
 slug = "python-highlight-syntax-in-phpstorm"
+image = "/images/2017-03/phpstorm-python.gif"
 tags = ["phpstorm", "jetbrains", "python", "textmate"]
 +++
 
@@ -12,8 +13,7 @@ tags = ["phpstorm", "jetbrains", "python", "textmate"]
 Tl;dr: можно сделать только подсветку, Solarized Dark нельзя.
 [Официальная документация](https://confluence.jetbrains.com/display/PhpStorm/TextMate+Bundles+in+PhpStorm)
 
-{{< mainimg src="/images/2017-03/phpstorm-python.gif" >}}
-
+![python in phpstorm]({{< param image >}})
 <!--more-->
 
 ## Wat?!

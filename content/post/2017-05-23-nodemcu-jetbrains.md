@@ -2,6 +2,7 @@
 title = "Интеграция NodeMCU и JetBrains IDE на примере IDEA или как я чуть не написал свою IDE"
 date = "2017-05-23T21:20:00"
 slug = "nodemcu-integrate-jetbrains-ide"
+image = "/images/2017-05/nodemcu-idea.png"
 tags = ["nodemcu", "esp8266", "idea", "phpstorm", "jetbrains", "python", "atom", "vscode", "lua"]
 +++
 
@@ -16,8 +17,7 @@ tags = ["nodemcu", "esp8266", "idea", "phpstorm", "jetbrains", "python", "atom",
 
 TL;DR: написал свой велосипед, работает, но не без проблем.
 
-{{< mainimg src="/images/2017-05/nodemcu-idea.png" >}}
-
+![nodemcu ide]({{< param image >}})
 <!--more-->
 
 ## Как это работает:

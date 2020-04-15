@@ -2,10 +2,11 @@
 title = "Черная полоса в яндекс браузере на Ubuntu 18.04, GPU ускорение"
 date = "2018-04-30T18:45:00+06:00"
 slug = "ubuntu-yandex-browser-black-line"
+image = "/images/2018-04/yandex-browser-black-line.jpg"
 tags = ["ubuntu desktop", "18.04"]
 +++
 
-{{< mainimg src="/images/2018-04/yandex-browser-black-line.jpg" >}}
+![ubuntu yandex browser black line]({{< param image >}})
 
 На решение натолкнуло видео - https://www.youtube.com/watch?v=qUIsn5-B2XY
 

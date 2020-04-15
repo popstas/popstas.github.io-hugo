@@ -2,6 +2,7 @@
 title = "Извлечение одной из папок в git репозитории в отдельный репозиторий с сохранением истории - git-extract-subproject"
 date = "2017-02-22T01:19:00"
 slug = "2017/02/22/git-extract-subproject-preserving-history"
+image = "/images/2017-02/git-extract-subproject.jpg"
 tags = ["bash", "git", "ansible", "server-scripts"]
 +++
 
@@ -14,8 +15,7 @@ tags = ["bash", "git", "ansible", "server-scripts"]
 
 Ниже написано, как сделать 1-й шаг одной командой через скрипт `git-extract-subproject`.
 
-{{< mainimg src="/images/2017-02/git-extract-subproject.jpg" >}}
-
+![Git projects extract]({{< param image >}})
 <!--more-->
 
 В общем все оказалось просто, за минуту находится статья об этом - [
