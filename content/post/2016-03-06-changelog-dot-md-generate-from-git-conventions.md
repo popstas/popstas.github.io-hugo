@@ -20,7 +20,7 @@ tags = ["transmission-cli", "git", "changelog", "github", "docs"]
 
 Tl;dr: conventional-changelog, стандартизация коммитов.
 
-UPD 14.04.2020: [как я использую conventional changelog в связке с npm version](/blog/2020/04/14/npm-version/)
+UPD 15.04.2020: [как я использую conventional changelog в связке с npm version](/blog/2020/04/15/npm-version/)
 
 ![changelog]({{< param image >}})
 <!--more-->
