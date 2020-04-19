@@ -58,7 +58,8 @@ paginate = 10
 
     # Sidebar
         # Number of recent posts that will be shown in the sidebar - set to 0 or remove to hide this section
-        sidebarRecentLimit = 5
+        sidebarRecentLimit = 10
+        sidebarText = "Обновления через [Telegram](https://tglink.ru/popstas_vk_wall) или [RSS](http://feeds.feedburner.com/popstas)"
 
         github = "https://github.com/popstas/"
         twitter = "https://twitter.com/popstas/"
