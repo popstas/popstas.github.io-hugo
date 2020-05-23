@@ -81,6 +81,11 @@ div.entry-content > h4{
     line-height: 1em;
 }
 
+@media(max-width: 420px) {
+    h1 { font-size: 2em; }
+    div.entry-content > h2 { font-size: 2em; }
+}
+
 article pre {
     padding: 5px;
     overflow: auto;
