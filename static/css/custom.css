@@ -187,3 +187,37 @@ article img {
     font-weight: normal;
     display: inline-block;
 }
+
+.spoiler {
+    border-top: 3px solid #ccc;
+    border-bottom: 3px solid #ccc;
+    /* border-radius: 3px; */
+    padding: 10px 0;
+    display: inline-block;
+    margin: 30px 0;
+}
+.panel-heading {
+    display: inline-block;
+}
+.panel-heading a{
+    text-decoration: none;
+    color: #222;
+}
+.panel-heading h2,
+.panel-heading h3,
+.panel-heading h4,
+.panel-heading h5{
+    display: inline;
+}
+.panel-heading .spoiler-link::after {
+    content: '↑';
+}
+.panel-heading .spoiler-link.collapsed::after {
+    content: '↓';
+}
+.collapse {
+    display: none;
+}
+.collapse.in {
+    display: block;
+}

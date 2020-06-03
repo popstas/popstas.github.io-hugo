@@ -1,0 +1,27 @@
+<!--Uses Bootstap to show a clickable panel that reveals it's content
+	See documentation for more details:
+	https://github.com/H4tch/hugo-plus/blob/master/docs/shortcodes/spoiler.md
+-->
+{{ $scratch := newScratch }}
+{{ $scratch.Set "randomId" (index (seq 1000 | shuffle) 0) }}
+    <div class="spoiler panel panel-default {{ .Get "class" }}"
+    {{ with .Get "style" }}style="{{ . | safeCSS }}"{{ end }}>
+        <div class="panel-heading">
+            <a class="spoiler-link collapsed" data-toggle="collapse"
+            style="display:block;{{ if (not (.Get "text")) }}text-decoration:none;{{ end }}"
+            {{ with .Get "id" }}href="#{{ . }}" {{ else }}href="#spoiler{{ $scratch.Get "randomId" }}"{{ end }}>{{ with .Get "text" }}{{ . | markdownify }}{{ else }}&nbsp;{{ end }}</a>
+        </div>
+        {{ if .Inner }}
+        <div class="panel-collapse collapse {{ if (eq (.Get "open") "true") }}in{{ end }}"
+        {{ with .Get "id" }}id="{{ . }}"{{ else }}id="spoiler{{ $scratch.Get "randomId" }}"{{ end }}>
+            <div class="panel-body">{{ .Inner | markdownify }}</div>
+            {{ if .Get "footer" }}
+                <div class="panel-footer">
+                    <a class="spoiler-link collapsed" data-toggle="collapse" style="display:block;"
+                    {{ with .Get "id" }}href="#{{ . }}"{{ else }}href="#spoiler{{ $scratch.Get "randomId" }}"{{ end }}>
+                        {{ .Get "footer" | safeHTML }}</a>
+                </div>
+            {{ end }}
+        </div>
+        {{ end }}
+    </div>
