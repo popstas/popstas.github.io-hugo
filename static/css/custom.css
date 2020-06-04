@@ -53,8 +53,8 @@ h2:hover .heading-anchor, h3:hover .heading-anchor, h4:hover .heading-anchor, h5
 
 .entry-title a {
     color: #222 !important;
-    font-family: "PT Serif",Georgia,Times,"Times New Roman",serif;
-    font-size: 2.2em;
+    /* font-family: "PT Serif",Georgia,Times,"Times New Roman",serif; */
+    font-size: 2em;
     font-weight: bold;
     line-height: 1.2em;
     text-decoration: none;
@@ -209,7 +209,7 @@ article img {
 .panel-heading h5{
     display: inline;
 }
-.panel-heading .spoiler-link::after {
+.panel-heading .spoiler-link:hover::after {
     content: '↑';
 }
 .panel-heading .spoiler-link.collapsed::after {
