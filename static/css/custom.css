@@ -1,17 +1,64 @@
+/* layout, header */
+html, body>header, #main, #content, footer {
+    background: none !important;
+    border: none;
+}
+body>header {
+    padding: 15px;
+    /* margin-bottom: -40px; */
+}
+.site-title {
+    float: left;
+    width: 50%;
+}
+@media(max-width:420px) {
+    body>header {
+        padding: 8px;
+    }
+    .site-title a {
+        font-size: 26px;
+    }
+}
+
 hgroup div+div {
     margin: .2em 0 0;
     font-size: 1em;
-    color: #aaa;
+    color: #999;
 }
 hgroup a {
     font-size: 2.2em;
     line-height: 1.2em;
     text-decoration: none;
-    color: #f2f2f2 !important;
+    color: #222 !important;
+}
+header nav {
+    background: none;
+    border: none;
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+header nav a:visited {
+    color: #666;
+}
+nav .subscription {
+    margin: 0;
+}
+.main-navigation {
+    display: none;
+}
+.mobile-nav {
+    display: none;
 }
 fieldset[role="search"] {
-    margin-top: 5px;
+    margin-top: 16px;
 }
+body>footer {
+    margin: 0;
+    padding-left: 0;
+    display: inline-block;
+}
+/* end layout */
 
 article header p.meta {
     text-transform: none;
@@ -128,27 +175,13 @@ article .entry-content > table tr:last-child td {
     margin-right: 0.2em;
 }
 
-@media(min-width: 1620px){
-    .sidebar-nav {
-        position: fixed;
-        left: 7px;
-        bottom: -15px;
-        border-bottom: 0;
-    }
-
-    aside.sidebar .sidebar-nav a {
-        color: #fff;
-    }
-    
-    aside.sidebar .sidebar-nav a:hover .fa-twitter {
-        color: #00f;
-    }
-    
-    aside.sidebar .sidebar-nav a:hover .fa-github {
-        color: #333;
-    }
+aside.sidebar {
+    border: none;
+    text-align: right;
 }
-
+aside.sidebar li {
+    border: none;
+}
 .fa-telegram.fa-3x {
     font-size: 2.4em;
 }
