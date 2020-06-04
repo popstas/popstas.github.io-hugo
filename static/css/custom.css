@@ -60,6 +60,10 @@ body>footer {
 }
 /* end layout */
 
+a {
+    color: #222;
+}
+
 article header p.meta {
     text-transform: none;
     margin-left: 2px;
@@ -226,7 +230,7 @@ article img {
     border-bottom: 3px solid #ccc;
     /* border-radius: 3px; */
     padding: 10px 0;
-    display: inline-block;
+    /* display: inline-block; */
     margin: 30px 0;
 }
 .panel-heading {
@@ -256,7 +260,7 @@ article img {
 }
 
 .punch {
-    border: 5px solid #da570f;
+    border: 5px solid #0181eb;
     font-family: Helvetica;
     font-size: 22px;
     line-height: 1.5em;
