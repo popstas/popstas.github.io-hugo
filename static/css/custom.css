@@ -63,6 +63,11 @@ body>footer {
 a {
     color: #222;
 }
+hr {
+    margin: 60px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
 
 article header p.meta {
     text-transform: none;
@@ -74,8 +79,12 @@ h2:target, h3:target, h4:target, h5:target {
 }
 h2 .heading-anchor, h3 .heading-anchor, h4 .heading-anchor, h5 .heading-anchor {
     display: none;
-    margin-top: -5px;
-    margin-left: 0.5em;
+    position: absolute;
+    left: -15px;
+    width: 25px;
+    height: 25px;
+    /* margin-top: -5px; */
+    /* margin-left: 0.5em; */
     font-size: 0.45em;
     vertical-align: middle;
     text-decoration: none;
