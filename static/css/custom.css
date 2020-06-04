@@ -221,3 +221,13 @@ article img {
 .collapse.in {
     display: block;
 }
+
+.punch {
+    border: 5px solid #da570f;
+    font-family: Helvetica;
+    font-size: 22px;
+    line-height: 1.5em;
+    padding: 15px 0;
+    text-align: center;
+    margin: 30px 0;
+}
