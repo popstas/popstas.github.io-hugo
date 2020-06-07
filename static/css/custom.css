@@ -204,8 +204,9 @@ article .entry-content > table th:last-child, article .entry-content > table td:
 }
 
 article .entry-content > table th {
-    color: #999;
+    color: #222;
     border-top: none;
+    text-align: left;
 }
  
 article .entry-content > table tr:last-child td {
