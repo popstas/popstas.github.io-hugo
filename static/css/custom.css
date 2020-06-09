@@ -107,10 +107,16 @@ article header p.meta {
     margin-left: 2px;
 }
 
-h2:target, h3:target, h4:target, h5:target {
+h2:target,
+h3:target,
+h4:target,
+h5:target {
     padding-top: 15px !important;
 }
-h2 .heading-anchor, h3 .heading-anchor, h4 .heading-anchor, h5 .heading-anchor {
+h2 .heading-anchor,
+h3 .heading-anchor,
+h4 .heading-anchor,
+h5 .heading-anchor {
     display: none;
     position: absolute;
     left: -15px;
@@ -122,7 +128,10 @@ h2 .heading-anchor, h3 .heading-anchor, h4 .heading-anchor, h5 .heading-anchor {
     vertical-align: middle;
     text-decoration: none;
 }
-h2:hover .heading-anchor, h3:hover .heading-anchor, h4:hover .heading-anchor, h5:hover .heading-anchor {
+h2:hover .heading-anchor,
+h3:hover .heading-anchor,
+h4:hover .heading-anchor,
+h5:hover .heading-anchor {
     display: inline-block;
 }
 
