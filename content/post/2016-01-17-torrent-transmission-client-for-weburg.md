@@ -6,6 +6,15 @@ image = "https://github.com/popstas/transmission-cli/raw/master/docs/img/grafana
 tags = ["projects", "transmission-cli", "php", "influxdb", "influxdata", "grafana", "travis", "ci", "symfony", "docker", "box", "phar", "phpcs", "phpmd", "composer", "coveralls"]
 +++
 
+{{< punch >}}
+UPD 20.05.2020: я уже несколько лет как не абонент Планеты, но Вебургом продолжаю пользоваться.
+
+Теперь я использую её так:
+
+- В браузере стоит [юзерскрипт](https://github.com/popstas/transmission-cli/blob/master/scripts/weburg-torrent-add.user.js), который позволяет ставить на закачку в Transmission в 1 клик (на сервере должен быть запущен [принимающий скрипт](https://github.com/popstas/transmission-cli/blob/master/scripts/server-torrent-add.js))
+- Когда смотрю какой-то сериал, ставлю в cron задачу на ежедневное докачивание новых серий
+{{< /punch >}}
+
 У моего интернет-провайдера Планета есть бонусная программа поощрения раздачи торрентов с [weburg.net](http://weburg.net), дающая бонусы,
 их можно тратить на абонентскую плату. У меня комп постоянно включен, я сразу стал участвовать.
 
@@ -17,10 +26,6 @@ tags = ["projects", "transmission-cli", "php", "influxdb", "influxdata", "grafan
 
 Через пару месяцев мне это надоело, задумался об автоматизации этого процесса и вот в новогодние каникулы родился
 [transmission-cli](https://github.com/popstas/transmission-cli) - консольная утилита, решающая часть этих задач.
-
-<iframe src="https://ghbtns.com/github-btn.html?user=popstas&repo=transmission-cli&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
-[![Build Status](https://travis-ci.org/popstas/transmission-cli.svg?branch=master)](https://travis-ci.org/popstas/transmission-cli)
-[![Coverage Status](https://coveralls.io/repos/popstas/transmission-cli/badge.svg?branch=master&service=github)](https://coveralls.io/github/popstas/transmission-cli?branch=master)
 
 ![transmission-cli grafana]({{< param image >}})
 <!--more-->

@@ -3,7 +3,7 @@ title = "CHANGELOG.md: ручное и автоматическое ведени
 date = "2016-03-06T10:09:13"
 slug = "changelog-dot-md-generate-from-git-conventions"
 image = "/images/2016-03/changelog.png"
-tags = ["transmission-cli", "git", "changelog", "github", "docs"]
+tags = ["git", "transmission-cli", "changelog", "github", "docs"]
 
 +++
 
@@ -20,7 +20,7 @@ tags = ["transmission-cli", "git", "changelog", "github", "docs"]
 
 Tl;dr: conventional-changelog, стандартизация коммитов.
 
-UPD 15.04.2020: [как я использую conventional changelog в связке с npm version](/blog/2020/04/15/npm-version/)
+{{< punch >}}UPD 15.04.2020: [как я использую conventional changelog в связке с npm version](/blog/2020/04/15/npm-version/){{< /punch >}}
 
 ![changelog]({{< param image >}})
 <!--more-->
