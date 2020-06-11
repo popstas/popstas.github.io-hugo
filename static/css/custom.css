@@ -96,6 +96,12 @@ body>footer {
 a {
     color: #222;
 }
+.hide-text p {
+    font-size: 8px;
+}
+.hide-text .hide-text-toggle {
+    font-weight: bold;
+}
 hr {
     margin: 60px;
     border: none;

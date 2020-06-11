@@ -28,3 +28,13 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }, 1000);
 });
+
+$(function(){
+  // скрыть текст, чтобы посмотреть на заголовки (по Ильяхову)
+  if(location.host == 'localhost:1313'){
+    $('aside').append(
+      $('<button class="hide-text-toggle">Скрыть текст</button>').
+        on('click', () => { $('body').toggleClass('hide-text'); })
+    );
+  }
+});
