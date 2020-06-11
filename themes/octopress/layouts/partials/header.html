@@ -23,6 +23,16 @@
   {{ with $.Params.image }}
   <meta property="og:image" content="{{ . | absURL }}" />
   {{ end }}
+  {{ if .IsHome }}
+  <meta property="og:image" content="{{ "/apple-touch-icon.png" | absURL }}" />
+  {{ end }}
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#2b5797">
+  <meta name="theme-color" content="#ffffff">
 
   <!-- goes into the title bar -->
   <title>{{ .Title }}{{ with $.Params.tags }}{{ range first 1 $.Params.tags }} - {{ . }}{{ end }} {{ end }}</title>
@@ -48,7 +58,7 @@
   <!-- RSS -->
   <link href="http://feeds.feedburner.com/popstas" rel="alternate" type="application/rss+xml" title="RSS" />
 
-  <meta name="description" content="{{ if .IsHome }}{{ $.Site.Params.description }}{{ else }}{{ .Description }}{{ end }}" />
+  <meta name="description" content="{{ if .IsHome }}{{ $.Site.Params.description }}{{ else }}{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}{{ end }}" />
   <meta name="keywords" content="{{ range $index, $element := .Params.Tags }}{{ if gt $index 0 }}, {{ end }}{{ . }}{{ else }}{{ .Site.Params.defaultKeywords }}{{ end }}">
   <meta name="author" content="{{ .Site.Params.author }}">
 

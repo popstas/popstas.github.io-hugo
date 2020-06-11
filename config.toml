@@ -22,10 +22,10 @@ paginate = 10
     author = "Stanislav Popov"
     
     # This text appears in the site header under website title
-    subtitle = "Записки о Linux"
+    # subtitle = "Записки о Linux"
     
     # Website's default description
-    defaultDescription = ""
+    description = "Обзоры книг, описания моих проектов, гаджетов, музыки, жизни. Полезняшки для работы в Windows и Linux."
 
     # Used in the search engine
     searchEngineURL = "https://www.google.com/search"
