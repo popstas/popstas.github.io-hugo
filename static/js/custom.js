@@ -37,4 +37,18 @@ $(function(){
         on('click', () => { $('body').toggleClass('hide-text'); })
     );
   }
+
+  // оглавление
+  setTimeout(() => {
+    $('.contents').each((i, elem) => {
+      const content = $(elem).find('.contents-data');
+      const headerSelector = $(elem).data('header');
+
+      $('.entry-content').find(headerSelector).each((i, header) => {
+        const title = $(header).text().replace(' 🔗', '');
+        const link = $(header).find('.heading-anchor').attr('href');
+        content.append(`<li><a href="${link}">${title}</li>`);
+      });
+    });
+  }, 50);
 });

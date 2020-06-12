@@ -11,6 +11,8 @@ tags = ["projects", "opensource", "github", "nodejs", "vue", "yandex-dialogs", "
 ![Яндекс Алиса, Список покупок, Вторая память, Node.js]({{< param image >}})
 <!--more-->
 
+{{< contents header="h2" >}}
+
 ### Предыстория
 В [chords-viewer](https://github.com/popstas/chords-viewer) была одна фича: голосовой поиск через браузерный API. Так я наступил в голосовые интерфейсы. Начиналось лето 2018. 
 
