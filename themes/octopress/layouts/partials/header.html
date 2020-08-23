@@ -20,10 +20,9 @@
   <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
   <meta property="og:url" content="{{ .Permalink }}" />
   <meta property="og:title" content="{{ .Title }}" />
-  {{ with $.Params.image }}
-  <meta property="og:image" content="{{ . | absURL }}" />
-  {{ end }}
-  {{ if .IsHome }}
+  {{ if (isset $.Params "image") }}
+  <meta property="og:image" content="{{ $.Params.image | absURL }}" />
+  {{ else }}
   <meta property="og:image" content="{{ "/apple-touch-icon.png" | absURL }}" />
   {{ end }}
 
