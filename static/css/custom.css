@@ -200,31 +200,33 @@ article pre {
     margin-bottom: 1em;
 }
 
-article .entry-content > table {
+article .entry-content table {
     margin-bottom: 1.5em;
+    margin-left: -5px;
+    margin-right: -5px;
     border: none;
 }
     
-article .entry-content > table th, article .entry-content > table td {
+article .entry-content table th, article .entry-content table td {
     padding: 5px;
     border: 1px solid #ccc;
 }
  
-article .entry-content > table th:first-child, article .entry-content > table td:first-child {
+article .entry-content table th:first-child, article .entry-content table td:first-child {
     border-left: none;
 }
   
-article .entry-content > table th:last-child, article .entry-content > table td:last-child {
+article .entry-content table th:last-child, article .entry-content table td:last-child {
     border-right: none;
 }
 
-article .entry-content > table th {
+article .entry-content table th {
     color: #222;
     border-top: none;
     text-align: left;
 }
  
-article .entry-content > table tr:last-child td {
+article .entry-content table tr:last-child td {
     border-bottom: none;
 }
 
