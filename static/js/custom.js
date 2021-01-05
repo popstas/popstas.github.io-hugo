@@ -51,4 +51,9 @@ $(function(){
       });
     });
   }, 50);
+
+  // цель на клик по раскрывалке
+  $('.entry-content').on('click', '.collapsed', function(){
+    ym(51681281, 'reachGoal', 'spoiler', {spoiler: $(this).text()});
+  });
 });
