@@ -7,6 +7,9 @@ body>header {
     padding: 15px;
     /* margin-bottom: -40px; */
 }
+header.draft {
+    background: #ffff00 !important;
+}
 .site-title {
     float: left;
     width: 50%;
@@ -58,6 +61,12 @@ body>footer {
     padding-left: 8px;
     display: inline-block;
 }
+article>footer p.meta {
+    color: #ccc;
+}
+article .categories a{
+    color: #ccc;
+}
 /* end layout */
 
 /* fixed aside */
@@ -95,7 +104,52 @@ body>footer {
 
 a {
     color: #222;
+    display: inline-block;
 }
+
+.entry-content a[href^="/blog/"]::before,
+.entry-content a[href^="https://github.com"]::before,
+.entry-content a[href^="https://photos.app.goo.gl"]::before
+{
+    display: inline-block;
+    margin-right: 3px;
+    text-decoration: none;
+}
+
+/* blog.popstas.ru links */
+.entry-content a[href^="/blog/"]::before{
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    content: '';
+    background: url(/favicon.png) 0 0 no-repeat;
+    background-size: cover;
+    text-decoration: none;
+}
+
+/* Github links */
+.entry-content a[href^="https://github.com"]::before{
+    font: normal normal normal 1rem/1 ForkAwesome;
+    content: "\f09b";
+}
+.entry-content a[href^="https://github.com"]:visited::before{
+    color: #222;
+}
+.entry-content a[href^="https://github.com"]:hover::before{
+    color: #0181eb;
+}
+
+/* blog.popstas.ru links */
+.entry-content a[href^="https://photos.app.goo.gl"]::before{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    content: '';
+    background: url(https://ssl.gstatic.com/social/photosui/images/logo/2x/photos_64dp.png) 0 0 no-repeat;
+    background-size: cover;
+    text-decoration: none;
+}
+
 .hide-text p {
     font-size: 8px;
 }
@@ -324,7 +378,7 @@ article img {
     font-family: Helvetica;
     font-size: 22px;
     line-height: 1.5em;
-    padding: 15px 0;
+    padding: 15px 6px;
     text-align: center;
     margin: 30px 0;
 }
