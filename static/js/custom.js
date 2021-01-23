@@ -56,4 +56,8 @@ $(function(){
   $('.entry-content').on('click', '.collapsed', function(){
     ym(51681281, 'reachGoal', 'spoiler', {spoiler: $(this).text()});
   });
+
+  // подсказка на первом спойлере
+  const firstSpoiler = $('.entry-content .spoiler-link').first();
+  if (firstSpoiler.length > 0) firstSpoiler.text(firstSpoiler.text() + ' (нажмите, чтобы посмотреть)');
 });
