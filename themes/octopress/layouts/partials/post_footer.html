@@ -25,11 +25,11 @@
        For more info about template variables: https://gohugo.io/templates/variables/ -->
 
   <p class="meta">
-    {{ with .PrevInSection }}
+    {{ with .NextInSection }}
         <div>Новее: <a class="related" href="{{ .Permalink }}" title="{{ .LinkTitle }}">{{ .LinkTitle }}</a></div>
     {{ end }}
 
-    {{ with .NextInSection }}
+    {{ with .PrevInSection }}
         <div>Старее: <a class="related" href="{{ .Permalink }}" title="{{ .LinkTitle }}">{{ .LinkTitle }}</a></div>
     {{ end }}
   </p>
