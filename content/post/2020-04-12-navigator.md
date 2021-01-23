@@ -6,8 +6,15 @@ url = "navigator"
 weight = -1
 +++
 
-[Проекты](/tags/projects/)
+- [Проекты](/tags/projects/)
+- [Все нетехнические посты](/tags/offtop/)
+- [Книги](/tags/книги/)
+- [Итоги года](/tags/итоги-года)
+- [3D печать](/tags/3d-printer)
+- [Умный дом](/tags/smart-home/)
+- [Девайсы](/tags/gadgets/)
 
+{{< spoiler text="Другие категории">}}
 ## Процессы и инструменты разработки
 - [JetBrains](/tags/jetbrains/)
 - [Docker](/tags/docker/)
@@ -23,14 +30,7 @@ weight = -1
 - [PHP](/tags/php/)
 - [Bash](/tags/bash/), [Zsh](/tags/zsh/)
 - [Ansible](/tags/ansible/), [Molecule](/tags/molecule/)
-
-## Личное, хобби
-- [Все нетехнические посты](/tags/offtop/)
-- [Книги](/tags/книги/)
-- [Итоги года](/tags/итоги-года)
-- [3D печать](/tags/3d-printer)
-- [Умный дом](/tags/smart-home/)
-- [Девайсы](/tags/gadgets/)
+{{< /spoiler >}}
 
 <!--more-->
 
