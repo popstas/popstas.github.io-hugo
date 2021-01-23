@@ -109,6 +109,7 @@ a {
 
 .entry-content a[href^="/blog/"]::before,
 .entry-content a[href^="https://github.com"]::before,
+.entry-content a[href^="https://gist.github.com"]::before,
 .entry-content a[href^="https://photos.app.goo.gl"]::before
 {
     display: inline-block;
@@ -128,14 +129,17 @@ a {
 }
 
 /* Github links */
-.entry-content a[href^="https://github.com"]::before{
+.entry-content a[href^="https://github.com"]::before,
+.entry-content a[href^="https://gist.github.com"]::before{
     font: normal normal normal 1rem/1 ForkAwesome;
     content: "\f09b";
 }
-.entry-content a[href^="https://github.com"]:visited::before{
+.entry-content a[href^="https://github.com"]:visited::before,
+.entry-content a[href^="https://gist.github.com"]:visited::before{
     color: #222;
 }
-.entry-content a[href^="https://github.com"]:hover::before{
+.entry-content a[href^="https://github.com"]:hover::before,
+.entry-content a[href^="https://gist.github.com"]:hover::before{
     color: #0181eb;
 }
 
