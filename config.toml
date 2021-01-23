@@ -4,7 +4,7 @@ title = "Popstas"
 theme = "octopress"
 
 disablePathToLower = false
-paginate = 10
+paginate = 20
 
 [permalinks]
     post = "/blog/:year/:month/:day/:slug/"
