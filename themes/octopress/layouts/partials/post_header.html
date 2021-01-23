@@ -1,6 +1,6 @@
 <!-- Partial that generates the header/title for each post -->
 
-<header>
+<header  class="{{ cond ($.Params.draft) "draft" "" }}">
   <p class="meta">{{ .Date.Format "02.01.2006, 15:04" }}
     {{ if not .Site.Params.disableReadingTime }} - {{ if isset .Params "time" }}{{ .Params.time }}{{ else }}{{ .ReadingTime }}{{ end }} мин читать {{ end }}
 
